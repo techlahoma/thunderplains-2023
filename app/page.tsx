@@ -40,7 +40,7 @@ export default function Home() {
         </p>
         <a
           href="https://www.papercall.io/tplains"
-          className="inline-block py-4 px-8 text-white text-xl bg-fuchsia-700 hover:bg-fuchsia-600"
+          className="mt-4 inline-block py-4 px-8 text-white text-xl bg-fuchsia-700 hover:bg-fuchsia-600"
         >
           Submit to our CFP
         </a>
