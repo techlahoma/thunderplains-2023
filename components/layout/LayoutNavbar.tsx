@@ -18,12 +18,12 @@ export default function LayoutNavbar() {
           </span>
         </a>
         <div className="flex md:order-2">
-          <button
-            type="button"
-            className="text-white bg-fuchsia-700 hover:bg-fuchsia-600 focus:ring-2 focus:outline-none focus:ring-fuchsia-300 font-medium font-bold text-sm px-4 py-2 text-center mr-3 md:mr-0 "
+          <a
+            href="https://www.techlahoma.org/tickets-arent-available"
+            className="block text-white bg-fuchsia-700 hover:bg-fuchsia-600 focus:ring-2 focus:outline-none focus:ring-fuchsia-300 font-medium font-bold text-sm px-4 py-2 text-center mr-3 md:mr-0 "
           >
             Get Tickets
-          </button>
+          </a>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -54,35 +54,23 @@ export default function LayoutNavbar() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-blue-700 md:p-0"
-                aria-current="page"
+                href="#schedule"
+                className="block py-2 pl-3 pr-4 text-white md:p-0 hover:bg-violet-800"
               >
-                Home
+                Schedule
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
+                href="#sponsors"
+                className="block py-2 pl-3 pr-4 text-white md:p-0 hover:bg-violet-800"
               >
-                About
+                Sponsors
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-              >
-                Contact
+              <a href="#faq" className="block py-2 pl-3 pr-4 text-white md:p-0 hover:bg-violet-800">
+                F.A.Q.
               </a>
             </li>
           </ul>
