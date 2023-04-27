@@ -18,11 +18,38 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="author" content="Vance Lucas" />
         <title>ThunderPlains 2023</title>
       </head>
-      <body style={fontRuda.style}>
+      <body style={fontRuda.style} className="text-lg">
         <header className="navbar">
           <LayoutNavbar />
         </header>
         <main>{children}</main>
+        <footer className="bg-violet-950 border-t border-gray-200 p-10 text-white text-center">
+          ThunderPlains is a <a href="https://www.techlahoma.org">Techlahoma</a> event organized by{' '}
+          <a href="https://vancelucas.com">Vance Lucas</a> and many other volunteers.
+          <p className="py-8 text-md">
+            Previous Years:{' '}
+            <a
+              title="Sorry, no website is available :("
+              className="text-gray-200 no-underline cursor-not-allowed"
+            >
+              2022
+            </a>{' '}
+            | <a href="http://2021.thunderplainsconf.com">2021</a> |{' '}
+            <a href="http://2020.thunderplainsconf.com">2020</a> |{' '}
+            <a href="http://2019.thunderplainsconf.com">2019</a> |{' '}
+            <a href="http://2018.thunderplainsconf.com">2018</a> |{' '}
+            <a href="http://2017.thunderplainsconf.com">2017</a> |{' '}
+            <a href="http://2016.thunderplainsconf.com">2016</a> |{' '}
+            <a href="http://2015.thunderplainsconf.com">2015</a> |{' '}
+            <a href="http://2014.thunderplainsconf.com">2014</a> |{' '}
+            <a
+              title="Sorry, no website is available :("
+              className="text-gray-200 no-underline cursor-not-allowed"
+            >
+              2013
+            </a>
+          </p>
+        </footer>
       </body>
     </html>
   );
