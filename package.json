@@ -7,11 +7,17 @@
   },
   "dependencies": {
     "@types/node": "^18.11.5",
-    "@types/react-dom": "^18.0.7",
     "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
     "next": "latest",
-    "react-dom": "^18.2.0",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1"
   }
 }
