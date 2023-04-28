@@ -23,7 +23,7 @@ export default function Home() {
           <section className="flex flex-col lg:flex-row justify-center space-x-0 lg:space-x-12 m-auto text-white">
             <h1 className="font-bold text-4xl">ThunderPlains Developer Conference</h1>
             <h3 className="mt-2 font-bold text-xl">
-              November 11<sup>th</sup> 2023 ⚡️ Oklahoma City
+              November 10<sup>th</sup> 2023 ⚡️ Oklahoma City
             </h3>
           </section>
         </div>
