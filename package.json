@@ -1,5 +1,7 @@
 {
+  "name": "thunderplains-2023",
   "private": true,
+  "homepage": "https://techlahoma.github.io/thunderplains-2023",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
