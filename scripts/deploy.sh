@@ -14,6 +14,9 @@ git checkout -b gh-pages
 # Add CNAME file if present
 cp ../CNAME .
 
+# Ensure static assets can be served properly
+touch .nojekyll
+
 git add .
 git commit -am "Static site deploy"
 git push origin gh-pages --force
