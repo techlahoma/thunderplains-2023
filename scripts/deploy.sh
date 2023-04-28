@@ -4,6 +4,7 @@ BUILD_FOLDER="out"
 
 # Deploy & setup
 cd $BUILD_FOLDER
+rm .DS_Store
 git init .
 git remote add origin $GIT_REPO_URL
 git checkout -b gh-pages
