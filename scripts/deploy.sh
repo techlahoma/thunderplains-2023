@@ -8,7 +8,7 @@ cd $BUILD_FOLDER
 rm .DS_Store
 git init .
 git remote add origin $GIT_REPO_URL
-git checkout -b gh-pages || (echo "Cannot chekout gh-pages branch!" && exit 1)
+git checkout gh-pages || (echo "Cannot chekout gh-pages branch!" && exit 1)
 git pull --rebase || (echo "Unable to pull remote changes on gh-pages branch!" && exit 1)
 
 # Build
