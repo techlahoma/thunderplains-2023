@@ -43,12 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="http://2016.thunderplainsconf.com">2016</a> |{' '}
             <a href="http://2015.thunderplainsconf.com">2015</a> |{' '}
             <a href="http://2014.thunderplainsconf.com">2014</a> |{' '}
-            <a
-              title="Sorry, no website is available :("
-              className="text-gray-200 no-underline cursor-not-allowed"
-            >
-              2013
-            </a>
+            <a href="http://2013.thunderplainsconf.com">2013</a>
           </p>
         </footer>
       </body>
