@@ -32,19 +32,13 @@ export default function Home() {
       <section id="schedule" className="text-center py-40 px-8">
         <H2>Schedule / Speakers</H2>
         <p className="py-4 mt-10">
-          Our Call for Papers (CFP) is open! If you would like to speak at ThunderPlains this year,
-          please submit your talk idea(s) for consideration.
+          Our Call for Papers (CFP) is now closed! Speakers will be notified by mid September.
         </p>
         <p className="py-4">
           Selected speakers will get a free ticket to the conference and all required travel and
           lodging paid for by Techlahoma.
         </p>
-        <a
-          href="https://www.papercall.io/tplains"
-          className="mt-4 inline-block py-4 px-8 text-white text-xl bg-fuchsia-800 hover:bg-fuchsia-700"
-        >
-          Submit to our CFP
-        </a>
+
       </section>
 
       <section id="sponsors" className="text-center py-40 px-8 bg-violet-100">
