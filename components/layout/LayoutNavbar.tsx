@@ -19,7 +19,7 @@ export default function LayoutNavbar() {
         </a>
         <div className="flex md:order-2">
           <a
-            href="https://www.techlahoma.org/tickets-arent-available"
+            href="https://www.eventbrite.com/e/thunderplains-tickets-668208488577?aff=oddtdtcreator"
             className="block text-white bg-fuchsia-700 hover:bg-fuchsia-600 focus:ring-2 focus:outline-none focus:ring-fuchsia-300 font-medium font-bold text-sm px-4 py-2 text-center mr-3 md:mr-0 "
           >
             Get Tickets
