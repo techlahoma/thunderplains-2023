@@ -4,8 +4,8 @@ import LayoutNavbar from '../components/layout/LayoutNavbar';
 
 const fontRuda = Ruda({ subsets: ['latin'] });
 export const metadata = {
-  title: 'LeftField Widget',
-  description: 'Embeddable AI for your input fields',
+  title: 'ThunderPlains 2023 Developer Conference',
+  description: 'ThunderPlains Developer Conference - Web and JavaScript',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
