@@ -11,3 +11,11 @@ a {
   text-decoration: underline;
   cursor: pointer;
 }
+
+table {
+  width: 100%;
+}
+table td {
+  padding: 1.5rem 0.75rem;
+  border: 1px solid #777;
+}

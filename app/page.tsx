@@ -32,12 +32,80 @@ export default function Home() {
 
       <section id="schedule" className="text-center py-40 px-8">
         <H2>Schedule / Speakers</H2>
-        <p className="py-4 mt-10">
-          Our Call for Papers (CFP) is now closed! Speakers will be notified by mid September.
-        </p>
-        <p className="py-4">
-          Selected speakers will get a free ticket to the conference and all required travel and
-          lodging paid for by Techlahoma.
+        <div className="py-4">
+          <table className="w-full">
+            <tr>
+              <td className="bg-violet-300">9:00 am</td>
+              <td colSpan={2} className="bg-slate-200">
+                Welcome
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">9:30 am</td>
+              <td className="w-[45%]">
+                <em>Garrett Bland</em> &mdash;{' '}
+                <strong>Understanding JavaScript's Event Loop and Callstack</strong>
+              </td>
+              <td className="w-[45%]">
+                <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">10:30 am</td>
+              <td>
+                <em>Alex Riviere</em> &mdash; <strong>Implementing Small Systems Design</strong>
+              </td>
+              <td>
+                <em>Elena Hawkins</em> &mdash; <strong>Topic TBA</strong>
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">11:30 am</td>
+              <td>
+                <em>Adam Rackis</em> &mdash;{' '}
+                <strong>The Bleeding &quot;Edge&quot; of Web Development</strong>
+              </td>
+              <td>
+                <em>Rebecca Hartwig</em> &mdash; <strong>Topic TBA</strong>
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">12:30 pm</td>
+              <td colSpan={2} className="bg-slate-200">
+                Lunch Break
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">1:30 pm</td>
+              <td>
+                <em>Matt Jones</em> &mdash; <strong>Why we chose Blazor over React and Vue</strong>
+              </td>
+              <td>
+                <em>Various</em> &mdash; <strong>Lightning Talks</strong>
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">2:30 pm</td>
+              <td>
+                <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+              </td>
+              <td>
+                <em>Various</em> &mdash; <strong>Lightning Talks</strong>
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">3:30 pm</td>
+              <td>
+                <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+              </td>
+              <td>
+                <em>Spencer James</em> &mdash; <strong>Mastering the Discovery Interview</strong>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p className="py-4 mt-6">
+          <em>*TBA Slots</em> - We are still waiting for final confirmation from some speakers.
         </p>
       </section>
 
