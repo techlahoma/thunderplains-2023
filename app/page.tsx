@@ -3,7 +3,7 @@ import { H2 } from '../components/HTML';
 
 // Images/assets
 import OKCCCImage from '../assets/img/okccc_night_vlucas.jpg';
-import SponsorHeartlandLogo from '../assets/sponsors/heartland-white.png';
+import SponsorHeartlandLogo from '../assets/sponsors/heartland-red.png';
 
 export default function Home() {
   return (
@@ -44,9 +44,18 @@ export default function Home() {
       <section id="sponsors" className="text-center py-40 px-8 bg-violet-100">
         <H2>Sponsors</H2>
 
-        <a href="https://www.heartland.us">
-          <Image src={SponsorHeartlandLogo} alt="Heartland Payments" />
-        </a>
+        <div className="py-4 flex">
+          <div className="m-auto border-8 border-violet-200">
+            <a href="https://www.heartland.us">
+              <Image
+                src={SponsorHeartlandLogo}
+                alt="Heartland Payments"
+                width={450}
+                className="p-8 bg-white"
+              />
+            </a>
+          </div>
+        </div>
 
         <p className="py-4 mt-10">Sponsors help make our conference happen!</p>
         <p className="py-4">
