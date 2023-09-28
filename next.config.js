@@ -7,9 +7,6 @@ const nextConfig = {
   output: 'export',
   basePath: '',
   images: { unoptimized: true },
-  experimental: {
-    appDir: true,
-  },
 };
 
 module.exports = nextConfig;
