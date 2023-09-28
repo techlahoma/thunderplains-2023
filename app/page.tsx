@@ -37,7 +37,7 @@ export default function Home() {
             <tr>
               <td className="bg-violet-300">9:00 am</td>
               <td colSpan={2} className="bg-slate-200">
-                Welcome
+                Welcome &amp; 10-Year ThunderPlains Recap
               </td>
             </tr>
             <tr>
@@ -72,7 +72,7 @@ export default function Home() {
             <tr>
               <td className="bg-violet-300">12:30 pm</td>
               <td colSpan={2} className="bg-slate-200">
-                Lunch Break
+                Lunch Break (12:30 - 1:30 pm)
               </td>
             </tr>
             <tr>
@@ -80,8 +80,9 @@ export default function Home() {
               <td>
                 <em>Matt Jones</em> &mdash; <strong>Why we chose Blazor over React and Vue</strong>
               </td>
-              <td>
-                <em>Various</em> &mdash; <strong>Lightning Talks</strong>
+              <td className="bg-slate-50">
+                <em>Various Speakers &amp; Attendees</em>
+                <strong>⚡️ Lightning Talks</strong>
               </td>
             </tr>
             <tr>
@@ -89,8 +90,9 @@ export default function Home() {
               <td>
                 <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
               </td>
-              <td>
-                <em>Various</em> &mdash; <strong>Lightning Talks</strong>
+              <td className="bg-slate-50">
+                <em>Various Speakers &amp; Attendees</em>
+                <strong>⚡️ Lightning Talks</strong>
               </td>
             </tr>
             <tr>
@@ -100,6 +102,12 @@ export default function Home() {
               </td>
               <td>
                 <em>Spencer James</em> &mdash; <strong>Mastering the Discovery Interview</strong>
+              </td>
+            </tr>
+            <tr>
+              <td className="bg-violet-300">6:00 pm</td>
+              <td colSpan={2} className="bg-slate-200">
+                Afterparty with OKC Tech++
               </td>
             </tr>
           </table>
