@@ -3,6 +3,7 @@ import { H2 } from '../components/HTML';
 
 // Images/assets
 import OKCCCImage from '../assets/img/okccc_night_vlucas.jpg';
+import SponsorHeartlandLogo from '../assets/sponsors/heartland-white.png';
 
 export default function Home() {
   return (
@@ -38,11 +39,15 @@ export default function Home() {
           Selected speakers will get a free ticket to the conference and all required travel and
           lodging paid for by Techlahoma.
         </p>
-
       </section>
 
       <section id="sponsors" className="text-center py-40 px-8 bg-violet-100">
         <H2>Sponsors</H2>
+
+        <a href="https://www.heartland.us">
+          <Image src={SponsorHeartlandLogo} alt="Heartland Payments" />
+        </a>
+
         <p className="py-4 mt-10">Sponsors help make our conference happen!</p>
         <p className="py-4">
           Sponsorship options include logos and links on the website, slides, emails, and other

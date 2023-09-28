@@ -12,8 +12,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta httpEquiv="Permissions-Policy" content="interest-cohort=()" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta content="ThunderPlains Developer Conference" name="description" />
         <meta name="author" content="Vance Lucas" />
