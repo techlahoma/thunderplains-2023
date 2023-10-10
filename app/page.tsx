@@ -139,7 +139,7 @@ export default function Home() {
           promotional material. We can also set you up with a booth at our conference.
         </p>
         <a
-          href="/docs/2023-Sponsorship-Prospectus-ThunderPlains.pdf"
+          href="https://drive.google.com/file/d/1sXYsG1bOBLhF2yrSkM3BDmJkyYm2aa2J/view?usp=drive_link"
           className="mt-4 inline-block py-4 px-8 text-white text-xl bg-fuchsia-800 hover:bg-fuchsia-700"
         >
           Sponsor ThunderPlains 2023
