@@ -56,7 +56,11 @@ export default function Home() {
                 <em>Alex Riviere</em> &mdash; <strong>Implementing Small Systems Design</strong>
               </td>
               <td>
-                <em>Elena Hawkins</em> &mdash; <strong>Topic TBA</strong>
+                <em>Elena Haskins</em> &mdash;{' '}
+                <strong>
+                  Secret Weapon to Bridge Developers and Designers: Object Oriented User Experience
+                  (OOUX)
+                </strong>
               </td>
             </tr>
             <tr>
@@ -101,7 +105,11 @@ export default function Home() {
                 <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
               </td>
               <td>
-                <em>Spencer James</em> &mdash; <strong>Mastering the Discovery Interview</strong>
+                <em>Anna Asher</em> &mdash;{' '}
+                <strong>
+                  Mastering the Discovery interview: How to excavate insights that drive disruptive
+                  innovation
+                </strong>
               </td>
             </tr>
             <tr>
