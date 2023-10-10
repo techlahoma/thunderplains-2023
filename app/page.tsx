@@ -44,16 +44,18 @@ export default function Home() {
               <td className="bg-violet-300">9:30 am</td>
               <td className="w-[45%]">
                 <em>Garrett Bland</em> &mdash;{' '}
-                <strong>Understanding JavaScript's Event Loop and Callstack</strong>
+                <strong>Understanding JavaScript's Event Loop and Call Stack</strong>
               </td>
               <td className="w-[45%]">
-                <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+                <em>Heartland</em> &mdash;{' '}
+                <strong>Heartland Speaker Slot</strong>
               </td>
             </tr>
             <tr>
               <td className="bg-violet-300">10:30 am</td>
               <td>
-                <em>Alex Riviere</em> &mdash; <strong>Implementing Small Systems Design</strong>
+                <em>Alex Riviere</em> &mdash;{' '}
+                <strong>Implementing Small Design Systems</strong>
               </td>
               <td>
                 <em>Elena Haskins</em> &mdash;{' '}
@@ -70,7 +72,8 @@ export default function Home() {
                 <strong>The Bleeding &quot;Edge&quot; of Web Development</strong>
               </td>
               <td>
-                <em>Rebecca Hartwig</em> &mdash; <strong>Topic TBA</strong>
+                <em>Rebecca Hartwig</em> &mdash;{' '}
+                <strong>Rebecca Hartwig Hold</strong>
               </td>
             </tr>
             <tr>
@@ -82,33 +85,35 @@ export default function Home() {
             <tr>
               <td className="bg-violet-300">1:30 pm</td>
               <td>
-                <em>Matt Jones</em> &mdash; <strong>Why we chose Blazor over React and Vue</strong>
+                <em>Various Speakers &amp; Attendees</em>
+                <strong>Lightning Talks 2</strong>
               </td>
               <td className="bg-slate-50">
                 <em>Various Speakers &amp; Attendees</em>
-                <strong>⚡️ Lightning Talks</strong>
+                <strong>⚡️ Lightning Talks 1</strong>
               </td>
             </tr>
             <tr>
               <td className="bg-violet-300">2:30 pm</td>
               <td>
-                <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+                <em>Matt Jones</em> &mdash;{' '}
+                <strong>Why We Choose Blazor Over React and Vue</strong>
               </td>
               <td className="bg-slate-50">
-                <em>Various Speakers &amp; Attendees</em>
-                <strong>⚡️ Lightning Talks</strong>
+                <em>{' '}</em>
+                <strong>{' '}</strong>
               </td>
             </tr>
             <tr>
               <td className="bg-violet-300">3:30 pm</td>
               <td>
-                <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+                <em>Andrew Coleburn</em> &mdash;{' '}
+                <strong>Andrew Coleburn Javascript talk frying pan hold</strong>
               </td>
               <td>
-                <em>Anna Asher</em> &mdash;{' '}
-                <strong>
-                  Mastering the Discovery interview: How to excavate insights that drive disruptive
-                  innovation
+                <em>Kassie McClung, Anna Asher</em> &mdash;{' '}
+                <strong></strong>Mastering the Discovery interview: How to Excavate Insights that Drive Disruptive
+                  Innovation
                 </strong>
               </td>
             </tr>
