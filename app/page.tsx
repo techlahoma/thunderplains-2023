@@ -47,8 +47,8 @@ export default function Home() {
                 <strong>Understanding JavaScript's Event Loop and Call Stack</strong>
               </td>
               <td className="w-[45%]">
-                <em>Heartland</em> &mdash;{' '}
-                <strong>Heartland Speaker Slot</strong>
+                <em>Speaker TBA</em> &mdash;{' '}
+                <strong>Topic TBA</strong>
               </td>
             </tr>
             <tr>
@@ -73,7 +73,7 @@ export default function Home() {
               </td>
               <td>
                 <em>Rebecca Hartwig</em> &mdash;{' '}
-                <strong>Rebecca Hartwig Hold</strong>
+                <strong>Topic TBA</strong>
               </td>
             </tr>
             <tr>
@@ -84,13 +84,9 @@ export default function Home() {
             </tr>
             <tr>
               <td className="bg-violet-300">1:30 pm</td>
-              <td>
+              <td colSpan={2} className="bg-slate-200">
                 <em>Various Speakers &amp; Attendees</em>
-                <strong>Lightning Talks 2</strong>
-              </td>
-              <td className="bg-slate-50">
-                <em>Various Speakers &amp; Attendees</em>
-                <strong>⚡️ Lightning Talks 1</strong>
+                <strong>⚡️ Lightning Talks </strong>
               </td>
             </tr>
             <tr>
@@ -100,15 +96,15 @@ export default function Home() {
                 <strong>Why We Choose Blazor Over React and Vue</strong>
               </td>
               <td className="bg-slate-50">
-                <em>{' '}</em>
-                <strong>{' '}</strong>
+                <em>Speaker TBA</em> &mdash;{' '}
+                <strong>Topic TBA</strong>
               </td>
             </tr>
             <tr>
               <td className="bg-violet-300">3:30 pm</td>
               <td>
                 <em>Andrew Coleburn</em> &mdash;{' '}
-                <strong>Andrew Coleburn Javascript talk frying pan hold</strong>
+                <strong>Topic TBA</strong>
               </td>
               <td>
                 <em>Kassie McClung, Anna Asher</em> &mdash;{' '}
