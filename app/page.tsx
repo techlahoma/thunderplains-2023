@@ -4,6 +4,7 @@ import { H2 } from '../components/HTML';
 // Images/assets
 import OKCCCImage from '../assets/img/okccc_night_vlucas.jpg';
 import SponsorHeartlandLogo from '../assets/sponsors/heartland-red.png';
+import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 
 export default function Home() {
   return (
@@ -134,6 +135,21 @@ export default function Home() {
               <Image
                 src={SponsorHeartlandLogo}
                 alt="Heartland Payments"
+                width={450}
+                className="p-8 bg-white"
+              />
+            </a>
+          </div>
+        </div>
+
+        <H2>Exclusive After-Party Sponsors</H2>
+
+        <div className="py-4 flex">
+          <div className="m-auto border-8 border-violet-200">
+            <a href="https://www.vergeokc.com/">
+              <Image
+                src={SponsorVergeLogo}
+                alt="The Verge"
                 width={450}
                 className="p-8 bg-white"
               />
