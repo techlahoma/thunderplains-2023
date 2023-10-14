@@ -119,7 +119,19 @@ export default function Home() {
             <tr>
               <td className="bg-violet-300">6:00 pm</td>
               <td colSpan={2} className="bg-slate-200">
-                Afterparty with OKC Tech++
+                <p>
+                  <a href="https://www.eventbrite.com/e/okc-tech-november-2023-official-thunderplains-after-party-tickets-735853316077">
+                    Afterparty with OKC Tech++
+                  </a>
+                </p>
+                <p>
+                  <strong>Separate registration is required.</strong> Free for ThunderPlains
+                  attendees.
+                </p>
+                <p className="text-sm">
+                  Afterparty is 3 blocks away from the Convention Center, and is walkable with good
+                  weather.
+                </p>
               </td>
             </tr>
           </table>
