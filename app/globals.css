@@ -15,7 +15,70 @@ a {
 table {
   width: 100%;
 }
+
 table td {
   padding: 1.5rem 0.75rem;
   border: 1px solid #777;
+}
+
+/*  Sponsers section styles*/
+#sponsers {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spacer {
+  height: 2rem;
+}
+
+.gold-sponsers img {
+  border: 2px solid #FFD700;
+}
+
+#gold {
+  color: goldenrod;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.lunch-sponser H3 {
+  text-shadow: 1px 1px 1px goldenrod;
+  margin-bottom: 0;
+}
+
+.silver-sponsers img {
+  border: 2px solid silver;
+}
+
+#silver {
+  color: silver;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.bronze-sponsers img {
+  border: 2px solid #cd7f32;
+}
+
+#bronze {
+  color: #cd7f32;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.local-np-sponsers img {
+  border: 2px solid rgba(90, 0, 139, 0.837)
+}
+
+#local {
+  color: rgba(90, 0, 139, 0.837);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.inkind-sponsers img {
+  border: 2px solid rgb(44, 44, 187);
+}
+
+#inkind {
+  color: rgb(44, 44, 187);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }

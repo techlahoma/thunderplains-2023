@@ -1,9 +1,12 @@
 import Image from 'next/image';
-import { H2 } from '../components/HTML';
+import { H1, H2, H3 } from '../components/HTML';
 
 // Images/assets
 import OKCCCImage from '../assets/img/okccc_night_vlucas.jpg';
 import SponsorHeartlandLogo from '../assets/sponsors/heartland-red.png';
+import Sponsor36dnLogo from '../assets/sponsors/36dn.png';
+import SponserOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
+import SponserBitnessLabsLogo from '../assets/sponsors/bitness_labs.png';
 
 export default function Home() {
   return (
@@ -126,20 +129,99 @@ export default function Home() {
       </section>
 
       <section id="sponsors" className="text-center py-40 px-8 bg-violet-100">
-        <H2>Sponsors</H2>
+        <H1>Thanks to our Sponsors</H1>
 
-        <div className="py-4 flex">
-          <div className="m-auto border-8 border-violet-200">
-            <a href="https://www.heartland.us">
-              <Image
-                src={SponsorHeartlandLogo}
-                alt="Heartland Payments"
-                width={450}
-                className="p-8 bg-white"
-              />
-            </a>
+        <div className='spacer'></div>
+
+        <div className="gold-sponsers">
+          <H2><span id="gold">Gold</span> Sponsers</H2>
+
+          <div className='spacer'></div>
+
+          <div className='lunch-sponser'>
+            <H3>Lunch Provided By Of Ash and Fire</H3>
+            <div className="py-4 flex">
+              <div className="m-auto border-8 border-violet-200">
+                <a href="https://www.ofashandfire.com/">
+                  <Image
+                    src={SponserOfAshAndFireLogo}
+                    alt="Of Ash and Fire"
+                    width={450}
+                    className="p-8 bg-white"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="py-4 flex">
+            <div className="m-auto border-8 border-violet-200">
+              <a href="https://www.heartland.us">
+                <Image
+                  src={SponsorHeartlandLogo}
+                  alt="Heartland Payments"
+                  width={450}
+                  className="p-8 bg-white gold-sponsers"
+                />
+              </a>
+            </div>
           </div>
         </div>
+
+        <div className='spacer'></div>
+
+        <div className="silver-sponsers">
+          <H2><span id="silver">Silver</span> Sponsers</H2>
+
+        </div>
+
+        <div className='spacer'></div>
+
+        <div className="bronze-sponsers">
+          <H2><span id="bronze">Bronze</span> Sponsers</H2>
+
+        </div>
+
+        <div className='spacer'></div>
+
+        <div className="local-np-sponsers">
+          <H3><span id="local">Local/Community</span> Sponsers</H3>
+
+          <div className="py-4 flex">
+            <div className="m-auto border-8 border-violet-200">
+              <a href="https://bitnesslabs.com/">
+                <Image
+                  src={SponserBitnessLabsLogo}
+                  alt="Bitness Labs"
+                  width={450}
+                  className="p-8 bg-white object-cover h-[150px] w-[450px]"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className='spacer'></div>
+
+        <div className="inkind-sponsers">
+          <H3><span id="inkind">InKind</span> Sponsors</H3>
+          <div className="py-4 flex">
+            <div className="m-auto border-8 border-violet-200">
+              <a href="https://www.36n.co/">
+                <Image
+                  src={Sponsor36dnLogo}
+                  alt="36 Degrees North"
+                  width={450}
+                  className="p-8 bg-white"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
 
         <p className="py-4 mt-10">Sponsors help make our conference happen!</p>
         <p className="py-4">
