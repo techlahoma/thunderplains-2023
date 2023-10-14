@@ -2,13 +2,13 @@ import * as React from 'react';
 
 export function defineElement(tag: string, classList?: string, moreProps?: any) {
   return function TagElement(props: any) {
-    let className = classList;
+    const { className, ...moreProps } = props;
 
-    if (props.className) {
-      className += ' ' + props.className;
+    if (className) {
+      classList = classList + ' ' + className;
     }
 
-    return React.createElement(tag, { className, ...moreProps, ...props });
+    return React.createElement(tag, { className: classList, ...moreProps });
   };
 }
 

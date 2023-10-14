@@ -5,8 +5,9 @@ import { H1, H2, H3 } from '../components/HTML';
 import OKCCCImage from '../assets/img/okccc_night_vlucas.jpg';
 import SponsorHeartlandLogo from '../assets/sponsors/heartland-red.png';
 import Sponsor36dnLogo from '../assets/sponsors/36dn.png';
-import SponserOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
-import SponserBitnessLabsLogo from '../assets/sponsors/bitness_labs.png';
+import SponsorOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
+import SponsorBitnessLabsLogo from '../assets/sponsors/bitness_labs.png';
+import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 
 export default function Home() {
   return (
@@ -131,28 +132,44 @@ export default function Home() {
       <section id="sponsors" className="text-center py-40 px-8 bg-violet-100">
         <H1>Thanks to our Sponsors</H1>
 
-        <div className='spacer'></div>
+        <div className="spacer"></div>
 
-        <div className="gold-sponsers">
-          <H2><span id="gold">Gold</span> Sponsers</H2>
+        <div className="gold-sponsors">
+          <H2>
+            <span id="gold">Gold</span> Sponsors
+          </H2>
 
-          <div className='spacer'></div>
+          <div className="spacer"></div>
 
-          <div className='lunch-sponser'>
-            <H3>Lunch Provided By Of Ash and Fire</H3>
-            <div className="py-4 flex">
-              <div className="m-auto border-8 border-violet-200">
-                <a href="https://www.ofashandfire.com/">
-                  <Image
-                    src={SponserOfAshAndFireLogo}
-                    alt="Of Ash and Fire"
-                    width={450}
-                    className="p-8 bg-white"
-                  />
-                </a>
-              </div>
+          <H3 className="mb-0">Lunch Provided By Of Ash and Fire</H3>
+          <div className="py-4 flex">
+            <div className="m-auto border-8 border-violet-200">
+              <a href="https://www.ofashandfire.com/">
+                <Image
+                  src={SponsorOfAshAndFireLogo}
+                  alt="Of Ash and Fire"
+                  width={450}
+                  className="p-8 bg-white"
+                />
+              </a>
             </div>
           </div>
+
+          <H3 className="mb-0 mt-4">After-Party Provided By The Verge OKC</H3>
+
+          <div className="py-4 flex">
+            <div className="m-auto border-8 border-violet-200">
+              <a href="https://www.vergeokc.com/">
+                <Image
+                  src={SponsorVergeLogo}
+                  alt="The Verge"
+                  width={450}
+                  className="p-8 bg-white"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="spacer"></div>
 
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
@@ -161,37 +178,41 @@ export default function Home() {
                   src={SponsorHeartlandLogo}
                   alt="Heartland Payments"
                   width={450}
-                  className="p-8 bg-white gold-sponsers"
+                  className="p-8 bg-white gold-sponsors"
                 />
               </a>
             </div>
           </div>
         </div>
 
-        <div className='spacer'></div>
+        <div className="spacer"></div>
 
-        <div className="silver-sponsers">
-          <H2><span id="silver">Silver</span> Sponsers</H2>
-
+        <div className="silver-sponsors">
+          <H2>
+            <span id="silver">Silver</span> Sponsors
+          </H2>
         </div>
 
-        <div className='spacer'></div>
+        <div className="spacer"></div>
 
-        <div className="bronze-sponsers">
-          <H2><span id="bronze">Bronze</span> Sponsers</H2>
-
+        <div className="bronze-sponsors">
+          <H2>
+            <span id="bronze">Bronze</span> Sponsors
+          </H2>
         </div>
 
-        <div className='spacer'></div>
+        <div className="spacer"></div>
 
-        <div className="local-np-sponsers">
-          <H3><span id="local">Local/Community</span> Sponsers</H3>
+        <div className="local-np-sponsors">
+          <H3>
+            <span id="local">Local/Community</span> Sponsors
+          </H3>
 
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
               <a href="https://bitnesslabs.com/">
                 <Image
-                  src={SponserBitnessLabsLogo}
+                  src={SponsorBitnessLabsLogo}
                   alt="Bitness Labs"
                   width={450}
                   className="p-8 bg-white object-cover h-[150px] w-[450px]"
@@ -201,10 +222,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='spacer'></div>
+        <div className="spacer"></div>
 
-        <div className="inkind-sponsers">
-          <H3><span id="inkind">InKind</span> Sponsors</H3>
+        <div className="inkind-sponsors">
+          <H3>
+            <span id="inkind">InKind</span> Sponsors
+          </H3>
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
               <a href="https://www.36n.co/">
@@ -218,10 +241,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
-
-
 
         <p className="py-4 mt-10">Sponsors help make our conference happen!</p>
         <p className="py-4">
