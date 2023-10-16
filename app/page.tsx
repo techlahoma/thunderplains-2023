@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { H1, H2, H3 } from '../components/HTML';
 
 
 // Images/assets
@@ -9,7 +8,6 @@ import SponsorOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
 import SponsorBitnessLabsLogo from '../assets/sponsors/bitness_labs.png';
 import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
-import TPBolt from "../assets/img/kapow@2x.png";
 import eventBadge from "../assets/img/event-details_badge.svg";
 import scheduleBG from "../assets/img/schedule_bg-img.svg";
 
@@ -40,7 +38,6 @@ export default function Home() {
           </div>
         </section>
       </header>
-
       <section id="quote">
         <blockquote>
           <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.”</p>
@@ -97,13 +94,15 @@ export default function Home() {
           <div className="event-details">
 
             <h2>Event Details</h2>
-            <div className="detail">
-              <h3>Date:</h3>
-              <p>November 10, 2023</p>
-            </div>
-            <div className="detail">
-              <h3>Venue:</h3>
-              <p>Oklahoma City Convention Center</p>
+            <div className="flex">
+              <div className="detail">
+                <h3>Date:</h3>
+                <p>November 10, 2023</p>
+              </div>
+              <div className="detail">
+                <h3>Venue:</h3>
+                <p>Oklahoma City Convention Center</p>
+              </div>
             </div>
             <a href="" className="primary-btn">What to Tell My Boss (PDF)</a>
             <div className="badge-wrapper">
@@ -192,7 +191,7 @@ export default function Home() {
               layout="fill"
           />
         </div>
-        <H2>Schedule</H2>
+        <h2>Schedule</h2>
 
         <div className="schedule-table-wrapper">
           <table className="schedule-wrapper">
@@ -346,13 +345,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
       <section id="faq">
         <div className="row-wrapper">
 
           <div className="faq-wrapper">
-            <H2>F.A.Q.</H2>
+            <h2>F.A.Q.</h2>
             <div className="faq-list">
               <div className="faq-wrap">
                 <h3 className="faq-q">Q: Where is ThunderPlains This Year?</h3>
@@ -417,8 +414,8 @@ export default function Home() {
                     />
                   </a>
                   <h4>
-                    <span>Lunch Provided By</span>
                     Of Ash and Fire
+                    <span>Lunch Sponsor</span>
                   </h4>
                 </div>
               </div>
@@ -433,8 +430,8 @@ export default function Home() {
                     />
                   </a>
                   <h4>
-                    <span>After-Party Provided By</span>
                     The Verge OKC
+                    <span>After-Party Sponsor</span>
                   </h4>
                 </div>
               </div>

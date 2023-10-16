@@ -26,27 +26,27 @@ h1, h2, h3, h4, h5, h6, a, blockquote{
   font-family: var(--tplains-font_heading);
 }
 h1{
-  font-size: calc(2.75rem + 0.390625vw);
+  font-size: 2.75rem;
 }
 h2{
-  font-size: calc(1.75rem + 0.390625vw);
+  font-size: 1.75rem;
   line-height: 1.2;
   color: var(--tplains-grape);
   font-weight: 500;
 }
 h3{
-  font-size: calc(1.35rem + 0.390625vw);
+  font-size: 1.35rem;
   color: var(--tplains-grape);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
 h4{
-  font-size: calc(1.25rem + 0.390625vw);
+  font-size: 1.25rem;
   line-height: 1.4;
 }
 h5{
-  font-size: calc(1.15rem + 0.390625vw);
+  font-size: 1.15rem;
 }
 h6{
   font-size: 1rem;
@@ -57,7 +57,7 @@ p{
 }
 p.intro{
   margin-bottom: 1.5rem;
-  font-size: calc(1.25rem + 0.390625vw);
+  font-size: 1.25rem;
   font-weight: 600;
 }
 p:last-of-type{
@@ -180,11 +180,12 @@ a {
   max-width: 1000px;
   margin: 1rem auto;
   text-align: center;
+  padding: 1rem;
 }
 #quote blockquote p{
   color: var(--tplains-navy);
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   font-family: var(--tplains-font_heading);
   margin-bottom: 1.5rem;
@@ -254,7 +255,7 @@ a {
   color: white;
   padding: 2rem 0;
 }
-.details-content .flex{
+.details-content >.flex{
   justify-content: center;
   align-items: center;
   flex-flow: column;
@@ -281,12 +282,15 @@ a {
 #details .event-details{
   flex: 0 1 380px;
 }
+#details .event-details .flex{
+  flex-flow: row wrap;
+}
 #details .detail{
   margin-top: 1rem;
   padding-top: 1rem;
-  width: 100%;
   display: inline-block;
   vertical-align: top;
+  flex: 1 0;
 }
 #details .detail h3{
   font-size: 1rem;
@@ -473,24 +477,31 @@ table td {
   padding: 3rem 0;
 }
 #faq .faq-wrapper h2{
-  position: relative;
+  top: -49px;
+  position: absolute;
+  left: 18px;
+  font-weight: bold;
+  font-size: 48px;
 }
 #faq .row-wrapper{
   position: relative;
   z-index: 3;
+  max-width: 960px;
 }
 #faq .faq-wrapper{
-  max-width: 800px;
+  max-width: 752px;
   width: 96%;
-  margin-left: 0;
   position: relative;
   z-index: 2;
   background-color: var(--tplains-purple);
   color: white;
-  margin-bottom: 4rem;
+  margin: 2rem auto;
+}
+#faq .faq-list{
+  padding: 1rem;
 }
 .faq-wrap{
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .faq-q{
   color: white;
@@ -697,24 +708,24 @@ table td {
   #sponsors{
     padding: 4rem 0;
   }
-  #quote blockquote p{
-    font-size: 1.75rem;
+  #faq .faq-wrapper{
+    margin: 2rem auto 4rem 0;
   }
   #faq .faq-wrapper h2{
     position: absolute;
     font-size: 200px;
     font-style: normal;
     font-weight: 700;
-    width: 848px;
-    height: 353px;
     transform: rotate(90deg);
-    left: 309px;
+    left: 75%;
     top: 350px;
+    line-height: 1;
   }
   .sponsor-list .sponsor-item a{
     border: 10px solid var(--tplains-purple_light);
   }
 }
+/*
 @media all and (min-width: 1300px){
   h1{
     font-size: 72px;
@@ -732,3 +743,4 @@ table td {
     font-size: 21px;
   }
 }
+ */
