@@ -83,6 +83,11 @@ export default function LayoutNavbar() {
                 F.A.Q.
               </a>
             </li>
+            <li>
+              <a href="#email-my-boss" className="block py-2 pl-3 pr-4 text-white md:p-0 hover:bg-violet-800">
+                Email My Boss
+              </a>
+            </li>
           </ul>
         </div>
       </div>
