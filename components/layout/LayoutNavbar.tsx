@@ -1,5 +1,14 @@
+'use client';
+
 import Image from 'next/image';
 import TPBolt from '../../assets/img/kapow@2x.png';
+
+const toggleNav = () => {
+  const navbar = document.getElementById('navbar-sticky');
+  if (navbar) {
+    navbar.classList.toggle('hidden');
+  }
+}
 
 export default function LayoutNavbar() {
   return (
@@ -30,6 +39,7 @@ export default function LayoutNavbar() {
             className="inline-flex items-center p-2 text-sm text-white md:hidden hover:bg-fuchsia-600 focus:outline-none focus:ring-2 focus:ring-fuchsia-300 "
             aria-controls="navbar-sticky"
             aria-expanded="false"
+            onClick={toggleNav}
           >
             <span className="sr-only">Open main menu</span>
             <svg
