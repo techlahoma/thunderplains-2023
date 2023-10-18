@@ -26,21 +26,38 @@ table td {
   height: 2rem;
 }
 
-.gold-sponsors img {
-  border: 2px solid #ffd700;
+.exclusive-sponsers img {
+  border: 2px solid rgb(162, 28, 175);
 }
 
-.gold-sponsors H3 {
-  text-shadow: 1px 1px 1px goldenrod;
+.exclusive-sponsers #description {
+  text-shadow: 1px 1px 1px rgb(162, 28, 175);
+}
+
+#exclusive {
+  color: rgb(162, 28, 175);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.gold-sponsors img {
+  border: 2px solid #e2c109;
+}
+
+.gold-sponsors #description {
+  text-shadow: 1px 1px 1px #e2c109;
 }
 
 #gold {
-  color: goldenrod;
+  color: #e2c109;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .silver-sponsors img {
   border: 2px solid silver;
+}
+
+.silver-sponsors #description {
+  text-shadow: 1px 1px 1px silver;
 }
 
 #silver {
@@ -52,25 +69,37 @@ table td {
   border: 2px solid #cd7f32;
 }
 
+.bronze-sponsors #description {
+  text-shadow: 1px 1px 1px #cd7f32;
+}
+
 #bronze {
   color: #cd7f32;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .local-np-sponsors img {
-  border: 2px solid rgba(90, 0, 139, 0.837);
+  border: 2px solid rgb(44, 44, 187);
+}
+
+.local-np-sponsors #description {
+  text-shadow: 1px 1px 1px rgb(44, 44, 187);
 }
 
 #local {
-  color: rgba(90, 0, 139, 0.837);
+  color: rgb(44, 44, 187);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .inkind-sponsors img {
-  border: 2px solid rgb(44, 44, 187);
+  border: 2px solid rgba(90, 0, 139, 0.837);
+}
+
+.inkind-sponsors #description {
+  text-shadow: 1px 1px 1px rgba(90, 0, 139, 0.837);
 }
 
 #inkind {
-  color: rgb(44, 44, 187);
+  color: rgba(90, 0, 139, 0.837);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }

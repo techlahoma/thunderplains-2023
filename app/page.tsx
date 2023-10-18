@@ -146,14 +146,12 @@ export default function Home() {
 
         <div className="spacer"></div>
 
-        <div className="gold-sponsors">
+        <div className="exclusive-sponsers">
           <H2>
-            <span id="gold">Gold</span> Sponsors
+            <span id="exclusive">Exclusive</span> Sponsors
           </H2>
 
-          <div className="spacer"></div>
-
-          <H3 className="mb-0">Lunch Provided By Of Ash and Fire</H3>
+          <H3 id="description" className="mb-0 mt-4">Lunch Provided By Of Ash and Fire</H3>
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
               <a href="https://www.ofashandfire.com/">
@@ -167,7 +165,7 @@ export default function Home() {
             </div>
           </div>
 
-          <H3 className="mb-0 mt-4">After-Party Provided By The Verge OKC</H3>
+          <H3 id="description" className="mb-0 mt-4">After-Party Provided By The Verge OKC</H3>
 
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
@@ -181,8 +179,17 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="spacer"></div>
 
+        </div>
+
+        <div className="spacer"></div>
+
+        <div className="gold-sponsors">
+          <H2>
+            <span id="gold">Gold</span> Sponsors
+          </H2>
+
+          <H3 id="description" className="mb-0 mt-4"></H3>
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
               <a href="https://www.heartland.us">
@@ -205,8 +212,8 @@ export default function Home() {
           </H2>
         </div>
 
-        <div className="spacer"></div>
 
+        <H3 className="mb-0 mt-4"></H3>
         <div className="bronze-sponsors">
           <H2>
             <span id="bronze">Bronze</span> Sponsors
@@ -220,6 +227,7 @@ export default function Home() {
             <span id="local">Local/Community</span> Sponsors
           </H3>
 
+          <H3 id="description" className="mb-0 mt-4"></H3>
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
               <a href="https://bitnesslabs.com/">
@@ -240,6 +248,8 @@ export default function Home() {
           <H3>
             <span id="inkind">InKind</span> Sponsors
           </H3>
+
+          <H3 id="description" className="mb-0 mt-4"></H3>
           <div className="py-4 flex">
             <div className="m-auto border-8 border-violet-200">
               <a href="https://www.36n.co/">
