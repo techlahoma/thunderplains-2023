@@ -18,7 +18,7 @@ export default function Home() {
         <section className="flex flex-wrap">
           <div className="text-wrapper">
             <h1>
-              <span className="info">11.12.23 | OKC, OK</span>
+              <span className="info">Nov. 10, 2023 | OKC, OK</span>
               ThunderPlains
               <span className="subHead">Developer Conference</span>
             </h1>
