@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 /* ----- Global Styles & Variables ----- */
-:root{
-  --tplains-purple: #5E1279;
-  --tplains-purple_light: #EDE9FE;
-  --tplains-grape: #931CAD;
-  --tplains-navy: #2D3A88;
+:root {
+  --tplains-purple: #5e1279;
+  --tplains-purple_light: #ede9fe;
+  --tplains-grape: #931cad;
+  --tplains-navy: #2d3a88;
   --tplains-grey: #2c2c2c;
   --tplains-grey_light: #f5f5f5;
   --tplains-font_heading: 'Murecho', sans-serif;
@@ -22,48 +22,58 @@ body {
   font-size: calc(15px + 0.390625vw);
   color: var(--tplains-grey);
 }
-h1, h2, h3, h4, h5, h6, a, blockquote{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+blockquote {
   font-family: var(--tplains-font_heading);
 }
-h1{
+h1 {
   font-size: 2.75rem;
 }
-h2{
+h2 {
   font-size: 1.75rem;
   line-height: 1.2;
   color: var(--tplains-grape);
   font-weight: 500;
 }
-h3{
+h3 {
   font-size: 1.35rem;
   color: var(--tplains-grape);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
-h4{
+h4 {
   font-size: 1.25rem;
   line-height: 1.4;
 }
-h5{
+h5 {
   font-size: 1.15rem;
 }
-h6{
+h6 {
   font-size: 1rem;
 }
-p{
+p {
   margin-bottom: 1.5rem;
   font-size: 1rem;
 }
-p.intro{
+p.intro {
   margin-bottom: 1.5rem;
   font-size: 1.25rem;
   font-weight: 600;
 }
-p:last-of-type{
+p:last-of-type {
   margin-bottom: 1rem;
 }
-p, a, li, span{
+p,
+a,
+li,
+span {
   font-family: var(--tplains-font_body);
   font-size: 1rem;
 }
@@ -72,35 +82,35 @@ a {
   cursor: pointer;
 }
 
-.row-wrapper{
+.row-wrapper {
   max-width: 1240px;
   width: 96%;
   margin: auto;
   padding: 0 1rem;
 }
-.primary-btn{
+.primary-btn {
   background-color: var(--tplains-grape);
   color: white;
   border-radius: 4px;
   font-size: 1.1rem;
   display: inline-block;
-  padding: .75rem 2rem;
+  padding: 0.75rem 2rem;
   text-decoration: none;
   box-shadow: 0 0;
   transition: all 250ms ease-in-out;
   font-weight: 600;
 }
-.primary-btn:hover{
+.primary-btn:hover {
   background-color: var(--tplains-navy);
-  box-shadow: 0 2px 8px 10px rgba(0,0,0,.05);
+  box-shadow: 0 2px 8px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* ----- Header Section Styles ----- */
-.tplains-header{
+.tplains-header {
   position: relative;
   padding: 7rem 0 3rem;
 }
-.tplains-header > section{
+.tplains-header > section {
   justify-content: space-between;
   align-items: center;
   max-width: 1240px;
@@ -109,14 +119,14 @@ a {
   position: relative;
   z-index: 2;
 }
-.tplains-header::before{
+.tplains-header::before {
   opacity: 0.03;
   background-repeat: repeat;
   background-position: center center;
   background-image: radial-gradient(black 7px, transparent 0);
   background-size: 30px 30px;
   background-color: lightgray;
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -126,8 +136,8 @@ a {
   width: 100%;
   z-index: 0;
 }
-.tplains-header::after{
-  background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 105.67%);
+.tplains-header::after {
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 105.67%);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -138,41 +148,41 @@ a {
   content: '';
   z-index: 1;
 }
-.tplains-header .img-wrapper{
- flex: 0 1 90%;
+.tplains-header .img-wrapper {
+  flex: 0 1 90%;
 }
-.tplains-header .text-wrapper{
- flex: 1 0;
+.tplains-header .text-wrapper {
+  flex: 1 0;
   margin-top: 1rem;
 }
-.tplains-header .text-wrapper h1{
+.tplains-header .text-wrapper h1 {
   color: var(--tplains-navy);
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 2rem;
 }
-.tplains-header .text-wrapper h1 span.info{
+.tplains-header .text-wrapper h1 span.info {
   color: var(--tplains-purple);
   display: block;
-  font-size: .35em;
+  font-size: 0.35em;
   font-weight: 300;
 }
-.tplains-header .text-wrapper h1 span.subHead{
- display: block;
+.tplains-header .text-wrapper h1 span.subHead {
+  display: block;
   color: var(--tplains-grape);
-  font-size: .65em;
+  font-size: 0.65em;
   font-weight: 500;
 }
-.tplains-header .text-wrapper p{
+.tplains-header .text-wrapper p {
   margin-bottom: 2rem;
 }
-.tplains-header .primary-btn{
+.tplains-header .primary-btn {
   font-size: 1.25rem;
   margin-top: 1rem;
 }
 
 /* ----- Blockquote Section Styles ----- */
-#quote{
+#quote {
   background-color: var(--tplains-purple_light);
   padding: 2rem 0;
 }
@@ -182,7 +192,7 @@ a {
   text-align: center;
   padding: 1rem;
 }
-#quote blockquote p{
+#quote blockquote p {
   color: var(--tplains-navy);
   text-align: center;
   font-size: 1.5rem;
@@ -190,37 +200,37 @@ a {
   font-family: var(--tplains-font_heading);
   margin-bottom: 1.5rem;
 }
-#quote blockquote cite{
+#quote blockquote cite {
   background-color: white;
   font-family: var(--tplains-font_heading);
   font-weight: 600;
   font-style: normal;
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   margin: 1rem auto;
   display: inline-block;
 }
-#quote blockquote cite::before{
+#quote blockquote cite::before {
   content: '';
-
 }
 /* ----- About Section Styles ----- */
-#about{
+#about {
   padding: 3rem 0;
   margin-top: 1rem;
+  border-top: var(--tplains-purple_light) 8px solid;
 }
-#about >.flex{
+#about > .flex {
   justify-content: space-between;
   align-items: center;
   flex-flow: column;
 }
-#about .about-box-grid{
+#about .about-box-grid {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
   flex-flow: row wrap;
   padding: 1rem;
 }
-#about .about-box{
+#about .about-box {
   border-radius: 12px;
   border: 4px solid var(--tplains-grape);
   background: var(--tplains-purple);
@@ -234,7 +244,7 @@ a {
   align-items: center;
   text-align: center;
 }
-#about .about-box >span{
+#about .about-box > span {
   display: block;
   font-size: 1rem;
   font-weight: 600;
@@ -242,96 +252,97 @@ a {
   line-height: 1;
   text-transform: uppercase;
 }
-#about .about-box >span span{
-  font-size: .65em;
+#about .about-box > span span {
+  font-size: 0.65em;
   display: block;
 }
-#about .about-copy{
+#about .about-copy {
   padding: 1rem;
 }
 /* ----- Event Details Section Styles ----- */
-#details .details-content{
+#details .details-content {
   background-color: var(--tplains-purple);
   color: white;
   padding: 2rem 0;
 }
-.details-content >.flex{
+.details-content > .flex {
   justify-content: center;
   align-items: center;
   flex-flow: column;
 }
-#details .details-content h2, #details .details-content h3{
+#details .details-content h2,
+#details .details-content h3 {
   color: white;
 }
-#details .svg-wrapper{
+#details .svg-wrapper {
   position: relative;
   overflow: hidden;
 }
-#details .svg-wrapper svg{
- width: 110%;
+#details .svg-wrapper svg {
+  width: 110%;
   margin-bottom: -1px;
 }
-#details .svg-wrapper svg rect{
+#details .svg-wrapper svg rect {
   mix-blend-mode: luminosity;
 }
-#details .primary-btn{
+#details .primary-btn {
   background-color: white;
   color: var(--tplains-navy);
   margin-top: 2rem;
 }
-#details .event-details{
+#details .event-details {
   flex: 0 1 380px;
 }
-#details .event-details .flex{
+#details .event-details .flex {
   flex-flow: row wrap;
 }
-#details .detail{
+#details .detail {
   margin-top: 1rem;
   padding-top: 1rem;
   display: inline-block;
   vertical-align: top;
   flex: 1 0;
 }
-#details .detail h3{
+#details .detail h3 {
   font-size: 1rem;
   margin-bottom: 0;
 }
-#details .detail p{
+#details .detail p {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0;
 }
-.badge-wrapper{
+.badge-wrapper {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
   display: none;
 }
-.badge-wrapper .badge-copy{
+.badge-wrapper .badge-copy {
   flex: 1 0;
   padding-left: 1rem;
 }
-.badge-wrapper .badge-copy p{
+.badge-wrapper .badge-copy p {
   line-height: 1.4;
   font-weight: 700;
 }
-.badge-wrapper .icon-wrap{
-  background-image: url("../assets/img/event-details_badge.svg");
+.badge-wrapper .icon-wrap {
+  background-image: url('../assets/img/event-details_badge.svg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   color: white;
-  font-size: .8rem;
-  display:flex;
+  font-size: 0.8rem;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 185px;
   width: 185px;
 }
-.badge-wrapper .icon-wrap img{
+.badge-wrapper .icon-wrap img {
   position: absolute;
 }
-.badge-wrapper .icon-wrap span{
+.badge-wrapper .icon-wrap span {
   display: block;
   position: relative;
   width: 85px;
@@ -339,19 +350,19 @@ a {
   text-transform: uppercase;
   font-weight: bold;
   line-height: 1.2;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
-.speaker-wrapper{
+.speaker-wrapper {
   flex: 0 1;
 }
-.speaker-wrapper .speakers-list{
+.speaker-wrapper .speakers-list {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
   flex-flow: row wrap;
 }
-.speakers-list .person-wrapper{
+.speakers-list .person-wrapper {
   flex: 0 1 75px;
   display: flex;
   justify-content: center;
@@ -360,7 +371,7 @@ a {
   align-items: center;
   margin-bottom: 2rem;
 }
-.person-wrapper .hs-wrap{
+.person-wrapper .hs-wrap {
   height: 75px;
   width: 75px;
   border: 3px solid white;
@@ -370,13 +381,13 @@ a {
   margin-bottom: 1rem;
 }
 /* ----- Schedule Section Styles ----- */
-#schedule{
- position: relative;
+#schedule {
+  position: relative;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-#schedule .bg-img{
+#schedule .bg-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -384,7 +395,7 @@ a {
   height: 100%;
   z-index: -1;
 }
-.schedule-table-wrapper{
+.schedule-table-wrapper {
   max-width: 850px;
   margin: 3rem auto 1rem;
 }
@@ -394,7 +405,7 @@ table {
   border-radius: 4px;
   border: 4px solid var(--tplains-grey_light);
   background: white;
-  box-shadow: 0 2px 42px 30px rgba(147, 28, 173, 0.10);
+  box-shadow: 0 2px 42px 30px rgba(147, 28, 173, 0.1);
 }
 table td {
   padding: 1.5rem 0.75rem;
@@ -402,29 +413,28 @@ table td {
 }
 
 /* ----- Tickets Section Styles ----- */
-#tickets{
- background-color: var(--tplains-purple_light);
+#tickets {
+  background-color: var(--tplains-purple_light);
   padding: 2rem 0;
-
 }
-#tickets .flex{
+#tickets .flex {
   justify-content: center;
   align-items: stretch;
   max-width: 1240px;
   margin: 2rem auto;
   flex-flow: row wrap;
 }
-#tickets .ticket-wrap{
+#tickets .ticket-wrap {
   background-color: white;
   margin: 1rem;
   flex: 1 0 50%;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,.11);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11);
   border-radius: 4px;
   overflow: hidden;
   position: relative;
 }
-.ticket-wrap .ticket-info{
+.ticket-wrap .ticket-info {
   height: 100%;
   display: flex;
   flex-flow: column;
@@ -432,7 +442,7 @@ table td {
   justify-content: space-between;
   padding-bottom: 1rem;
 }
-.ticket-wrap .ticket-info header{
+.ticket-wrap .ticket-info header {
   background-color: var(--tplains-grey_light);
   padding: 1rem;
   display: flex;
@@ -443,52 +453,51 @@ table td {
 .ticket-wrap .ticket-info header h3 {
   margin: 0 auto;
 }
-.ticket-wrap .t-details{
+.ticket-wrap .t-details {
   padding: 1rem;
   position: relative;
   height: 100%;
 }
-.ticket-wrap .t-details p{
-  font-size: .85rem;
+.ticket-wrap .t-details p {
+  font-size: 0.85rem;
   line-height: 1.4;
 }
-.t-details .primary-btn{
+.t-details .primary-btn {
   position: absolute;
   bottom: 1rem;
 }
-.ticket-wrap .ticket-info h4{
+.ticket-wrap .ticket-info h4 {
   margin: 1rem auto;
   font-size: 1rem;
   font-weight: 500;
 }
-.ticket-wrap .ticket-info header h3 span{
+.ticket-wrap .ticket-info header h3 span {
   display: block;
   color: var(--tplains-navy);
 }
-.ticket-wrap .ticket-details{
+.ticket-wrap .ticket-details {
   padding: 1rem;
   height: 100%;
 }
 
-
 /* ----- FAQ Section Styles ----- */
-#faq{
+#faq {
   position: relative;
   padding: 3rem 0;
 }
-#faq .faq-wrapper h2{
+#faq .faq-wrapper h2 {
   top: -49px;
   position: absolute;
   left: 18px;
   font-weight: bold;
   font-size: 48px;
 }
-#faq .row-wrapper{
+#faq .row-wrapper {
   position: relative;
   z-index: 3;
   max-width: 960px;
 }
-#faq .faq-wrapper{
+#faq .faq-wrapper {
   max-width: 752px;
   width: 96%;
   position: relative;
@@ -497,23 +506,23 @@ table td {
   color: white;
   margin: 2rem auto;
 }
-#faq .faq-list{
+#faq .faq-list {
   padding: 1rem;
 }
-.faq-wrap{
+.faq-wrap {
   padding: 1rem 0;
 }
-.faq-q{
+.faq-q {
   color: white;
 }
-#faq::before{
+#faq::before {
   opacity: 0.03;
   background-repeat: repeat;
   background-position: center center;
   background-image: radial-gradient(black 7px, transparent 0);
   background-size: 30px 30px;
   background-color: lightgray;
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 20%;
   bottom: 0;
@@ -523,8 +532,8 @@ table td {
   width: 100%;
   z-index: 0;
 }
-#faq::after{
-  background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 105.67%);
+#faq::after {
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 105.67%);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -536,33 +545,32 @@ table td {
   z-index: 1;
 }
 
-
 /* ----- Sponsors Section Styles ----- */
-#sponsors{
-  background: linear-gradient(320deg, #5E1279 2.37%, #05125F 67.37%);
+#sponsors {
+  background: linear-gradient(320deg, #5e1279 2.37%, #05125f 67.37%);
   color: white;
   padding: 2rem 0;
 }
 
-#sponsors h2{
+#sponsors h2 {
   margin-bottom: 1rem;
   color: white;
 }
-#sponsors h3{
+#sponsors h3 {
   color: white;
 }
-#sponsors p{
+#sponsors p {
   max-width: 900px;
   margin: 0 auto 1.5rem;
 }
-#sponsors p.intro{
+#sponsors p.intro {
   font-size: 1.25rem;
 }
-.sponsor-group{
- margin-top: 2rem;
+.sponsor-group {
+  margin-top: 2rem;
   padding-top: 1rem;
 }
-.sponsor-group header{
+.sponsor-group header {
   border-bottom: 1px solid white;
   width: 100%;
   display: flex;
@@ -571,39 +579,39 @@ table td {
   align-items: center;
   flex-flow: column;
 }
-.sponsor-group header h3{
+.sponsor-group header h3 {
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-.sponsor-group header a{
+.sponsor-group header a {
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
 }
-.sponsor-list{
+.sponsor-list {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
   margin-top: 2rem;
   flex-flow: row wrap;
 }
-.sponsor-list .sponsor-item{
+.sponsor-list .sponsor-item {
   margin: 1rem;
   flex: 0 1 80%;
 }
-.sponsor-list .sponsor-item .s-wrap{
+.sponsor-list .sponsor-item .s-wrap {
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 1rem;
   align-items: center;
   text-align: left;
 }
-.sponsor-list .sponsor-item a{
+.sponsor-list .sponsor-item a {
   flex: 0 1 125px;
   background-color: white;
   aspect-ratio: 1/1;
   display: flex;
-  padding: 1rem .75rem;
+  padding: 1rem 0.75rem;
   border-radius: 300px;
   align-items: center;
   justify-content: center;
@@ -611,107 +619,105 @@ table td {
   border: 5px solid var(--tplains-purple_light);
   margin-right: 1rem;
 }
-.sponsor-list .sponsor-item h4{
- font-size: 1.25rem;
+.sponsor-list .sponsor-item h4 {
+  font-size: 1.25rem;
 }
-.sponsor-list .sponsor-item h4 span{
+.sponsor-list .sponsor-item h4 span {
   display: block;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 /*
 ************* Large Phone **************
 */
-@media all and (min-width: 550px){
-  #details .detail{
+@media all and (min-width: 550px) {
+  #details .detail {
     width: 49%;
   }
-  .tplains-header .text-wrapper{
+  .tplains-header .text-wrapper {
     flex: 0 1 50%;
   }
-  .tplains-header .img-wrapper{
+  .tplains-header .img-wrapper {
     flex: 1 0;
   }
-  #tickets .ticket-wrap{
+  #tickets .ticket-wrap {
     flex: 0 1 212px;
   }
 }
 /*
 ************* Tablet **************
 */
-@media all and (min-width: 850px){
-
-  #details .detail{
+@media all and (min-width: 850px) {
+  #details .detail {
     width: 100%;
   }
-  #about >.flex{
+  #about > .flex {
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
   }
-  #about .about-box-grid{
+  #about .about-box-grid {
     padding: 1rem 1.5rem 1rem 0;
   }
-  #about .about-box{
+  #about .about-box {
     border-radius: 12px;
     border: 8px solid var(--tplains-grape);
     width: 132px;
     height: 132px;
   }
-  #about .about-box >span{
+  #about .about-box > span {
     font-size: 1.5rem;
   }
-  .sponsor-group header{
+  .sponsor-group header {
     flex-flow: row;
   }
-  .sponsor-list .sponsor-item{
+  .sponsor-list .sponsor-item {
     margin: 1rem;
     flex: 0 1 28%;
   }
-  .sponsor-list .sponsor-item .s-wrap{
+  .sponsor-list .sponsor-item .s-wrap {
     text-align: center;
     flex-flow: column;
   }
-  .sponsor-list .sponsor-item .s-wrap a{
+  .sponsor-list .sponsor-item .s-wrap a {
     margin-right: 0;
     flex: 0 1 225px;
   }
-  #tickets .ticket-wrap{
+  #tickets .ticket-wrap {
     flex: 0 1 28%;
   }
 }
 /*
 ************* Desktop **************
 */
-@media all and (min-width: 1024px){
-
-  .details-content .flex{
+@media all and (min-width: 1024px) {
+  .details-content .flex {
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
   }
-  .badge-wrapper{
+  .badge-wrapper {
     display: flex;
   }
-  .speaker-wrapper{
+  .speaker-wrapper {
     flex: 0 1 750px;
   }
   .speakers-list .person-wrapper {
     flex: 0 1 200px;
   }
-  .person-wrapper .hs-wrap{
+  .person-wrapper .hs-wrap {
     height: 150px;
     width: 150px;
     border: 5px solid white;
     border-radius: 150px;
   }
-  #sponsors{
+  #sponsors {
     padding: 4rem 0;
   }
-  #faq .faq-wrapper{
+  #faq .faq-wrapper {
     margin: 2rem auto 4rem 0;
   }
-  #faq .faq-wrapper h2{
+  #faq .faq-wrapper h2 {
     position: absolute;
     font-size: 200px;
     font-style: normal;
@@ -721,7 +727,7 @@ table td {
     top: 350px;
     line-height: 1;
   }
-  .sponsor-list .sponsor-item a{
+  .sponsor-list .sponsor-item a {
     border: 10px solid var(--tplains-purple_light);
   }
 }

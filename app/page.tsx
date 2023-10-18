@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </section>
       </header>
-      <section id="quote">
+      {/*<section id="quote">
         <blockquote>
           <p>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -48,7 +48,7 @@ export default function Home() {
           </p>
           <cite>Quote Person Name</cite>
         </blockquote>
-      </section>
+      </section>*/}
       <section id="about">
         <div className="row-wrapper flex">
           <div className="flex-1">
