@@ -511,6 +511,7 @@ export default function Home() {
                 </div>
               </div>
 
+
             </div>
           </div>
           <div className="sponsor-group inkind-sponsors">
@@ -555,6 +556,18 @@ export default function Home() {
             Sponsor ThunderPlains 2023
           </a>
         </div>
+      </section>
+
+      <section id="email-my-boss" className="text-center py-40 px-8 bg-violet-100">
+        <H2>Email My Boss</H2>
+        <p className="py-4">Need to convince your boss you should attend ThunderPlains?</p>
+        <p className="py-4">We got you covered! Just replace all the <strong>bolded</strong> spots with your info!</p>
+        <a
+          href="https://docs.google.com/document/d/1SOY5c8O0WOtmM4umjgPeLH0EHPywXBrVLn9tnZWmq5o/edit"
+          className="mt-4 inline-block py-4 px-8 text-white text-xl bg-fuchsia-800 hover:bg-fuchsia-700"
+        >
+          Email My Boss
+        </a>
       </section>
     </>
   );
