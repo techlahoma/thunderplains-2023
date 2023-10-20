@@ -145,7 +145,10 @@ export default function Home() {
                   <p>Oklahoma City Convention Center</p>
                 </div>
               </div>
-              <a href="" className="primary-btn">
+              <a
+                href="https://docs.google.com/document/d/1SOY5c8O0WOtmM4umjgPeLH0EHPywXBrVLn9tnZWmq5o/edit"
+                className="primary-btn"
+              >
                 What to Tell My Boss (PDF)
               </a>
               <div className="badge-wrapper">
