@@ -214,7 +214,7 @@ export default function Home() {
       </section>
       <section id="schedule" className="text-center">
         <div className="bg-img">
-          <Image src={scheduleBG} alt="ThunderPlains Badge" layout="fill" />
+          <Image src={scheduleBG} alt="ThunderPlains Badge" fill />
         </div>
         <h2>Schedule</h2>
 
