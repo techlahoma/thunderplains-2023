@@ -8,7 +8,7 @@ const toggleNav = () => {
   if (navbar) {
     navbar.classList.toggle('hidden');
   }
-}
+};
 
 export default function LayoutNavbar() {
   return (
@@ -29,7 +29,7 @@ export default function LayoutNavbar() {
         <div className="flex md:order-2">
           <a
             href="https://ti.to/techlahoma/thunderplains2023"
-            className="block text-white bg-fuchsia-700 hover:bg-fuchsia-600 focus:ring-2 focus:outline-none focus:ring-fuchsia-300 font-medium font-bold text-sm px-4 py-2 text-center mr-3 md:mr-0 "
+            className="block text-white bg-fuchsia-700 hover:bg-fuchsia-600 focus:ring-2 focus:outline-none focus:ring-fuchsia-300 font-bold text-sm px-4 py-2 text-center mr-3 md:mr-0 "
           >
             Get Tickets
           </a>
@@ -84,7 +84,10 @@ export default function LayoutNavbar() {
               </a>
             </li>
             <li>
-              <a href="#email-my-boss" className="block py-2 pl-3 pr-4 text-white md:p-0 hover:bg-violet-800">
+              <a
+                href="#email-my-boss"
+                className="block py-2 pl-3 pr-4 text-white md:p-0 hover:bg-violet-800"
+              >
                 Email My Boss
               </a>
             </li>
