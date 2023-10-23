@@ -234,7 +234,8 @@ export default function Home() {
                   <strong>Understanding JavaScript's Event Loop and Callstack</strong>
                 </td>
                 <td className="w-[45%]">
-                  <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+                  <em>Matthew Reily</em> &mdash;{' '}
+                  <strong>Building a Data-Driven Culture with Observability</strong>
                 </td>
               </tr>
               <tr>
@@ -283,7 +284,8 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">2:30 pm</td>
                 <td>
-                  <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+                  <em>Ron Dagdag</em> &mdash;{' '}
+                  <strong>Mixed Reality for JavaScript Developers</strong>
                 </td>
                 <td className="bg-slate-50">
                   <em>Various Speakers &amp; Attendees</em>
@@ -293,7 +295,11 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">3:30 pm</td>
                 <td>
-                  <em>Speaker TBA</em> &mdash; <strong>Topic TBA</strong>
+                  <em>Andrew Coleburn</em> &mdash;{' '}
+                  <strong>
+                    Out of the Frying Pan, Into the Fire: A new Dev's Guide to Navigating Unfamiliar
+                    Codebases
+                  </strong>
                 </td>
                 <td className="bg-slate-50">
                   <em>Various Speakers &amp; Attendees</em>
