@@ -386,7 +386,7 @@ export default function Home() {
                 </h3>
               </header>
               <div className="t-details">
-                <h4>Keep the learning going at Thunderplains 2023!</h4>
+                <h4>Keep the learning going at ThunderPlains 2023!</h4>
                 <p>
                   From traditional universities, to trade school to teaching yourself freeCodeCamp,
                   if you identify as a student, we think you’re one too!
@@ -409,8 +409,8 @@ export default function Home() {
               <div className="t-details">
                 <h4>A full day of speakers and talks, networking and more.</h4>
                 <p>
-                  Individual admission to the full day of Thunderplains conference speakers and
-                  lightening talks.
+                  Individual admission to the full day of ThunderPlains conference speakers and
+                  lightning talks.
                 </p>
               </div>
               <footer className="ticket-footer">
@@ -428,7 +428,7 @@ export default function Home() {
                 </h3>
               </header>
               <div className="t-details">
-                <h4>Empower Employees through Professional Development </h4>
+                <h4>Empower employees through professional development.</h4>
                 <p>
                   Help keep the conference affordable for everyone, especially students and those
                   requiring a grant. Government employees should also register at the corporate
@@ -450,7 +450,7 @@ export default function Home() {
             <h2>F.A.Q.</h2>
             <div className="faq-list">
               <div className="faq-wrap">
-                <h3 className="faq-q">Q: Where is ThunderPlains This Year?</h3>
+                <h3 className="faq-q">Q: Where is ThunderPlains this year?</h3>
                 <div className="faq-a">
                   <p>
                     ThunderPlains will be at the new{' '}
