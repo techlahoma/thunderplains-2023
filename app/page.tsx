@@ -453,7 +453,7 @@ export default function Home() {
                 <h3 className="faq-q">Q: Where is ThunderPlains this year?</h3>
                 <div className="faq-a">
                   <p>
-                    ThunderPlains will be at the new{' '}
+                    ThunderPlains will be on the third floor of the new{' '}
                     <a href="https://okcconventioncenter.com">Oklahoma City Convention Center</a> in
                     downtown Oklahoma City, OK.
                   </p>
