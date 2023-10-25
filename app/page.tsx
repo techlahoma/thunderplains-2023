@@ -10,14 +10,14 @@ import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
 import eventBadge from '../assets/img/event-details_badge.svg';
 import scheduleBG from '../assets/img/schedule_bg-img.svg';
-import SpeakerAlexRivierePic from '../assets/speakers/alex-riviere.jpg'
-import SpeakerAnnaAsherPic from '../assets/speakers/anna-asher.jpg'
-import SpeakerAndrewColeburnPic from '../assets/speakers/andrew-coleburn.png'
-import SpeakerElenaHaskinsPic from '../assets/speakers/elena-haskins.jpg'
-import SpeakerGarrettBlandPic from '../assets/speakers/garrett-bland.png'
-import SpeakerKassieMcClungPic from '../assets/speakers/kassie-mcclung.png'
-import SpeakerMatthewReilyPic from '../assets/speakers/matthew-reily.png'
-import SpeakerMattJonesPic from '../assets/speakers/matt-jones.jpg'
+import SpeakerAlexRivierePic from '../assets/speakers/alex-riviere.jpg';
+import SpeakerAnnaAsherPic from '../assets/speakers/anna-asher.jpg';
+import SpeakerAndrewColeburnPic from '../assets/speakers/andrew-coleburn.png';
+import SpeakerElenaHaskinsPic from '../assets/speakers/elena-haskins.jpg';
+import SpeakerGarrettBlandPic from '../assets/speakers/garrett-bland.png';
+import SpeakerKassieMcClungPic from '../assets/speakers/kassie-mcclung.png';
+import SpeakerMatthewReilyPic from '../assets/speakers/matthew-reily.png';
+import SpeakerMattJonesPic from '../assets/speakers/matt-jones.jpg';
 
 export default function Home() {
   return (
@@ -375,9 +375,6 @@ export default function Home() {
             </tbody>
           </table>
         </div>
-        <p className="py-4 mt-6">
-          <em>*TBA Slots</em> - We are still waiting for final confirmation from some speakers.
-        </p>
       </section>
       <section id="tickets">
         <div className="flex">
