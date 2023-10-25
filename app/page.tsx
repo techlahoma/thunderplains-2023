@@ -10,6 +10,14 @@ import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
 import eventBadge from '../assets/img/event-details_badge.svg';
 import scheduleBG from '../assets/img/schedule_bg-img.svg';
+import SpeakerAlexRivierePic from '../assets/speakers/alex-riviere.jpg'
+import SpeakerAnnaAsherPic from '../assets/speakers/anna-asher.jpg'
+import SpeakerAndrewColeburnPic from '../assets/speakers/andrew-coleburn.png'
+import SpeakerElenaHaskinsPic from '../assets/speakers/elena-haskins.jpg'
+import SpeakerGarrettBlandPic from '../assets/speakers/garrett-bland.png'
+import SpeakerKassieMcClungPic from '../assets/speakers/kassie-mcclung.png'
+import SpeakerMatthewReilyPic from '../assets/speakers/matthew-reily.png'
+import SpeakerMattJonesPic from '../assets/speakers/matt-jones.jpg'
 
 export default function Home() {
   return (
@@ -168,25 +176,71 @@ export default function Home() {
                 <div className="person-wrapper">
                   <div className="hs-wrap"></div>
                   <div className="person-name">
-                    <h4>Garrett Bland</h4>
+                    <h4>Adam Rackis</h4>
                   </div>
                 </div>
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerAlexRivierePic} alt="Alex Riviere" />
+                  </div>
                   <div className="person-name">
                     <h4>Alex Riviere</h4>
                   </div>
                 </div>
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerAndrewColeburnPic} alt="Andrew Coleburn" />
+                  </div>
+                  <div className="person-name">
+                    <h4>Andrew Coleburn</h4>
+                  </div>
+                </div>
+                <div className="person-wrapper">
+                  <div className="hs-wrap">
+                    <Image src={SpeakerAnnaAsherPic} alt="Anna Asher" />
+                  </div>
+                  <div className="person-name">
+                    <h4>Anna Asher</h4>
+                  </div>
+                </div>
+                <div className="person-wrapper">
+                  <div className="hs-wrap">
+                    <Image src={SpeakerElenaHaskinsPic} alt="Elena Haskins" />
+                  </div>
                   <div className="person-name">
                     <h4>Elena Haskins</h4>
                   </div>
                 </div>
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerGarrettBlandPic} alt="Garrett Bland" />
+                  </div>
                   <div className="person-name">
-                    <h4>Adam Rackis</h4>
+                    <h4>Garrett Bland</h4>
+                  </div>
+                </div>
+                <div className="person-wrapper">
+                  <div className="hs-wrap">
+                    <Image src={SpeakerKassieMcClungPic} alt="Kassie McClung" />
+                  </div>
+                  <div className="person-name">
+                    <h4>Kassie McClung</h4>
+                  </div>
+                </div>
+                <div className="person-wrapper">
+                  <div className="hs-wrap">
+                    <Image src={SpeakerMattJonesPic} alt="Matt Jones" />
+                  </div>
+                  <div className="person-name">
+                    <h4>Matt Jones</h4>
+                  </div>
+                </div>
+                <div className="person-wrapper">
+                  <div className="hs-wrap">
+                    <Image src={SpeakerMatthewReilyPic} alt="Matthew Reily" />
+                  </div>
+                  <div className="person-name">
+                    <h4>Matthew Reily</h4>
                   </div>
                 </div>
                 <div className="person-wrapper">
@@ -198,13 +252,7 @@ export default function Home() {
                 <div className="person-wrapper">
                   <div className="hs-wrap"></div>
                   <div className="person-name">
-                    <h4>Matt Jones</h4>
-                  </div>
-                </div>
-                <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
-                  <div className="person-name">
-                    <h4>Anna Asher</h4>
+                    <h4>Ron Dagdag</h4>
                   </div>
                 </div>
               </div>

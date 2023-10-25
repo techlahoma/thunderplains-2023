@@ -380,6 +380,11 @@ a {
   background-color: var(--tplains-purple_light);
   margin-bottom: 1rem;
 }
+.person-wrapper .hs-wrap img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 /* ----- Schedule Section Styles ----- */
 #schedule {
   position: relative;
@@ -710,6 +715,11 @@ table td {
     width: 150px;
     border: 5px solid white;
     border-radius: 150px;
+  }
+  .person-wrapper .hs-wrap img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
   #sponsors {
     padding: 4rem 0;
