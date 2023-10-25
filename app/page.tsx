@@ -322,7 +322,7 @@ export default function Home() {
                   <strong>Why we chose Blazor over React and Vue</strong>
                 </td>
                 <td>
-                  <em>Anna Asher</em> &mdash;{' '}
+                  <em>Anna Asher and Kassie McClung</em> &mdash;{' '}
                   <strong>
                     Mastering the Discovery interview: How to excavate insights that drive
                     disruptive innovation
