@@ -367,7 +367,7 @@ export default function Home() {
                     attendees.
                   </p>
                   <p className="text-sm">
-                    Afterparty is 3 blocks away from the Convention Center, and is walkable with
+                    Afterparty is 3 blocks away from the Convention Center, and is <a href="https://maps.app.goo.gl/MLr8YghyJmnn9rX5A">walkable</a> with
                     good weather.
                   </p>
                 </td>
