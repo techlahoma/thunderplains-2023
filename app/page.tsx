@@ -333,7 +333,7 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">2:30 pm</td>
                 <td>
-                  <em>Rebecca Hartwig</em> &mdash; <strong>Topic TBA</strong>
+                  <em>Rebecca Hartwig</em> &mdash; <strong>Tech Career Advice</strong>
                 </td>
                 <td className="bg-slate-50">
                   <em>Various Speakers &amp; Attendees</em>
