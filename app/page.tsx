@@ -306,7 +306,8 @@ export default function Home() {
                   <strong>The Bleeding &quot;Edge&quot; of Web Development</strong>
                 </td>
                 <td>
-                  <em>Rebecca Hartwig</em> &mdash; <strong>Topic TBA</strong>
+                  <em>Ron Dagdag</em> &mdash;{' '}
+                  <strong>Mixed Reality for JavaScript Developers</strong>
                 </td>
               </tr>
               <tr>
@@ -332,8 +333,7 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">2:30 pm</td>
                 <td>
-                  <em>Ron Dagdag</em> &mdash;{' '}
-                  <strong>Mixed Reality for JavaScript Developers</strong>
+                  <em>Rebecca Hartwig</em> &mdash; <strong>Topic TBA</strong>
                 </td>
                 <td className="bg-slate-50">
                   <em>Various Speakers &amp; Attendees</em>
