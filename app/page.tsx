@@ -86,7 +86,7 @@ export default function Home() {
           <div className="about-copy flex-1">
             <h3>An Electrifying Tech Event You Don't Want to Miss</h3>
             <p>
-              Get ready to dive into a day filled with mind-blowing talks, interactive workshops,
+              Get ready to dive into a day filled with mind-blowing talks
               and networking opportunities with industry experts. Whether you're a seasoned
               developer or just starting out, ThunderPlains has something for everyone.
             </p>
