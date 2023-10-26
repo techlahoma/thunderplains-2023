@@ -146,7 +146,7 @@ export default function Home() {
                 </div>
                 <div className="detail">
                   <h3>Time:</h3>
-                  <p>9:30am-4:30pm</p>
+                  <p>9:00am-4:30pm</p>
                 </div>
               </div>
               <a
