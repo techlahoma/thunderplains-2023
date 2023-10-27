@@ -150,7 +150,7 @@ export default function Home() {
                 </div>
                 <div className="detail">
                   <h3>Venue:</h3>
-                  <p>Oklahoma City Convention Center</p>
+                  <a href="https://okcconventioncenter.com/">Oklahoma City Convention Center</a>
                 </div>
               </div>
               <a
