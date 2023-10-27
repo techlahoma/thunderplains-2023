@@ -143,7 +143,7 @@ export default function Home() {
           <div className="row-wrapper flex">
             <div className="event-details">
               <h2>Event Details</h2>
-              <div className="flex">
+              <div className="details-container">
                 <div className="detail">
                   <h3>Date:</h3>
                   <p>November 10, 2023</p>
@@ -151,6 +151,10 @@ export default function Home() {
                 <div className="detail">
                   <h3>Venue:</h3>
                   <a href="https://okcconventioncenter.com/">Oklahoma City Convention Center</a>
+                </div>
+                <div className="detail">
+                  <h3>Time:</h3>
+                  <p>9:00am-4:30pm</p>
                 </div>
               </div>
               <a
