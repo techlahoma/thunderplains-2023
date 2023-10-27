@@ -488,6 +488,19 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+              <div className="faq-wrap">
+                <h3 className="faq-q">Q: What are lightning talks, and how will those sessions work?</h3>
+                <div className="faq-a">
+                  <p>
+                    A lightning talk is your opportunity to speak on 
+                    a <a href="https://github.com/techlahoma/lightning-talks/blob/main/adopt-a-talk.md">topic</a> of
+                    your choice for up to 5 minutes. Aaron Krauss and Erich Keil are hosting and organizing 
+                    the lightning talk sessions. They will have a signup at the event for some speaker slots, 
+                    but they also have some slots that you can sign up for now. If you're interested, contact 
+                    Aaron or Erich, or find their booth at the conference!
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
