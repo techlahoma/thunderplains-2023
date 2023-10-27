@@ -86,7 +86,7 @@ export default function Home() {
           <div className="about-copy flex-1">
             <h3>An Electrifying Tech Event You Don't Want to Miss</h3>
             <p>
-              Get ready to dive into a day filled with mind-blowing talks, interactive workshops,
+              Get ready to dive into a day filled with mind-blowing talks
               and networking opportunities with industry experts. Whether you're a seasoned
               developer or just starting out, ThunderPlains has something for everyone.
             </p>
@@ -323,7 +323,7 @@ export default function Home() {
                   <strong>Why we chose Blazor over React and Vue</strong>
                 </td>
                 <td>
-                  <em>Anna Asher</em> &mdash;{' '}
+                  <em>Anna Asher and Kassie McClung</em> &mdash;{' '}
                   <strong>
                     Mastering the Discovery interview: How to excavate insights that drive
                     disruptive innovation
@@ -386,7 +386,7 @@ export default function Home() {
                 </h3>
               </header>
               <div className="t-details">
-                <h4>Keep the learning going at Thunderplains 2023!</h4>
+                <h4>Keep the learning going at ThunderPlains 2023!</h4>
                 <p>
                   From traditional universities, to trade school to teaching yourself freeCodeCamp,
                   if you identify as a student, we think you’re one too!
@@ -409,8 +409,8 @@ export default function Home() {
               <div className="t-details">
                 <h4>A full day of speakers and talks, networking and more.</h4>
                 <p>
-                  Individual admission to the full day of Thunderplains conference speakers and
-                  lightening talks.
+                  Individual admission to the full day of ThunderPlains conference speakers and
+                  lightning talks.
                 </p>
               </div>
               <footer className="ticket-footer">
@@ -428,7 +428,7 @@ export default function Home() {
                 </h3>
               </header>
               <div className="t-details">
-                <h4>Empower Employees through Professional Development </h4>
+                <h4>Empower employees through professional development.</h4>
                 <p>
                   Help keep the conference affordable for everyone, especially students and those
                   requiring a grant. Government employees should also register at the corporate
@@ -450,10 +450,10 @@ export default function Home() {
             <h2>F.A.Q.</h2>
             <div className="faq-list">
               <div className="faq-wrap">
-                <h3 className="faq-q">Q: Where is ThunderPlains This Year?</h3>
+                <h3 className="faq-q">Q: Where is ThunderPlains this year?</h3>
                 <div className="faq-a">
                   <p>
-                    ThunderPlains will be at the new{' '}
+                    ThunderPlains will be on the third floor of the new{' '}
                     <a href="https://okcconventioncenter.com">Oklahoma City Convention Center</a> in
                     downtown Oklahoma City, OK.
                   </p>
