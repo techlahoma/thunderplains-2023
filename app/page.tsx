@@ -18,6 +18,8 @@ import SpeakerGarrettBlandPic from '../assets/speakers/garrett-bland.png';
 import SpeakerKassieMcClungPic from '../assets/speakers/kassie-mcclung.png';
 import SpeakerMatthewReilyPic from '../assets/speakers/matthew-reily.png';
 import SpeakerMattJonesPic from '../assets/speakers/matt-jones.jpg';
+import SpeakerRebeccaHartwigPic from '../assets/speakers/rebecca-hartwig.jpg';
+import SpeakerRonDagdagPic from '../assets/speakers/ron-dagdag.jpg';
 
 export default function Home() {
   return (
@@ -248,13 +250,17 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerRebeccaHartwigPic} alt="Rebecca Hartwig" />
+                  </div>
                   <div className="person-name">
                     <h4>Rebecca Hartwig</h4>
                   </div>
                 </div>
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerRonDagdagPic} alt="Ron Dagdag" />
+                  </div>
                   <div className="person-name">
                     <h4>Ron Dagdag</h4>
                   </div>
