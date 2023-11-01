@@ -329,8 +329,7 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">1:30 pm</td>
                 <td>
-                  <em>Matt Jones</em> &mdash;{' '}
-                  <strong>Why we chose Blazor over React and Vue</strong>
+                  <em>Rebecca Hartwig</em> &mdash; <strong>Networking... a necessary evil</strong>
                 </td>
                 <td>
                   <em>Anna Asher and Kassie McClung</em> &mdash;{' '}
@@ -343,7 +342,8 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">2:30 pm</td>
                 <td>
-                  <em>Rebecca Hartwig</em> &mdash; <strong>Tech Career Advice</strong>
+                  <em>Matt Jones</em> &mdash;{' '}
+                  <strong>Why we chose Blazor over React and Vue</strong>
                 </td>
                 <td className="bg-slate-50">
                   <em>Various Speakers &amp; Attendees</em>
