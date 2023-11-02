@@ -7,6 +7,7 @@ import Sponsor36dnLogo from '../assets/sponsors/36dn.png';
 import SponsorOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
 import SponsorBitnessLabsLogo from '../assets/sponsors/bitness_labs.png';
 import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
+import SponsorSimiancraftLogo from '../assets/sponsors/simiancraft.jpeg';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
 import eventBadge from '../assets/img/event-details_badge.svg';
 import scheduleBG from '../assets/img/schedule_bg-img.svg';
@@ -570,9 +571,15 @@ export default function Home() {
               </a>
             </header>
             <div className="sponsor-list">
-              <div className="sponsor-list">
-                <div className="sponsor-item">
-                  <div className="s-wrap"></div>
+              <div className="sponsor-item">
+                <div className="s-wrap">
+                  <a href="https://simiancraft.com/">
+                    <Image src={SponsorSimiancraftLogo} alt="Simiancraft" width={450} height={450} />
+                  </a>
+                  <h4>
+                    Simiancraft
+                    <span>Exclusive Recording Sponsor</span>
+                  </h4>
                 </div>
               </div>
             </div>
