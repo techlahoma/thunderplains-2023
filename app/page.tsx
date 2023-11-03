@@ -455,7 +455,12 @@ export default function Home() {
         <div className="newview">
           <div className="newview-text">
             <p>
-              <a href="https://nvoklahoma.org/">NewView Oklahoma</a> has provided us with a presentation on <a href="https://newviewoklahoma345-my.sharepoint.com/personal/phampton_newviewoklahoma_org/_layouts/15/stream.aspx?id=%2Fpersonal%2Fphampton%5Fnewviewoklahoma%5Forg%2FDocuments%2FThunder%20Plains%20Share%2FBuilding%20the%20Perfect%20PDF%20PowerPoint%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview">Building the Perfect PDF</a>!
+              <a href="https://nvoklahoma.org/">NewView Oklahoma</a> has provided us with a
+              presentation on{' '}
+              <a href="https://newviewoklahoma345-my.sharepoint.com/:f:/g/personal/phampton_newviewoklahoma_org/EihzVnfrYZtEmf_YAiDF9SsB6QQU-k83z1tX9l9w52tH8Q?e=UzAa2W">
+                Building the Perfect PDF
+              </a>
+              !
             </p>
           </div>
           <div className="newview-logo">
@@ -595,7 +600,12 @@ export default function Home() {
               <div className="sponsor-item">
                 <div className="s-wrap">
                   <a href="https://simiancraft.com/">
-                    <Image src={SponsorSimiancraftLogo} alt="Simiancraft" width={450} height={450} />
+                    <Image
+                      src={SponsorSimiancraftLogo}
+                      alt="Simiancraft"
+                      width={450}
+                      height={450}
+                    />
                   </a>
                   <h4>
                     Simiancraft
