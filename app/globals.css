@@ -408,9 +408,6 @@ a {
   background: white;
   box-shadow: 0 2px 42px 30px rgba(147, 28, 173, 0.1);
 }
-.schedule-row > .schedule-cell :nth-child(1) {
-  border: 0;
-}
 .schedule-cell {
   padding: 1.5rem 0.75rem;
   border: 1px solid #777;
