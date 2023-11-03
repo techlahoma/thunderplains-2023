@@ -10,6 +10,7 @@ import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import SponsorSimiancraftLogo from '../assets/sponsors/simiancraft.jpeg';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
 import eventBadge from '../assets/img/event-details_badge.svg';
+import NewViewOklahomaLogo from '../assets/img/newview-oklahoma.svg';
 import scheduleBG from '../assets/img/schedule_bg-img.svg';
 import SpeakerAdamRackisPic from '../assets/speakers/adam-rackis.jpeg';
 import SpeakerAlexRivierePic from '../assets/speakers/alex-riviere.jpg';
@@ -449,6 +450,18 @@ export default function Home() {
                 </a>
               </footer>
             </div>
+          </div>
+        </div>
+        <div className="newview">
+          <div className="newview-text">
+            <p>
+              <a href="https://nvoklahoma.org/">NewView Oklahoma</a> has provided us with a presentation on <a href="https://newviewoklahoma345-my.sharepoint.com/personal/phampton_newviewoklahoma_org/_layouts/15/stream.aspx?id=%2Fpersonal%2Fphampton%5Fnewviewoklahoma%5Forg%2FDocuments%2FThunder%20Plains%20Share%2FBuilding%20the%20Perfect%20PDF%20PowerPoint%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview">Building the Perfect PDF</a>!
+            </p>
+          </div>
+          <div className="newview-logo">
+            <a href="https://nvoklahoma.org/">
+              <Image src={NewViewOklahomaLogo} alt="NewView Oklahoma" />
+            </a>
           </div>
         </div>
       </section>

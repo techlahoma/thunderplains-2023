@@ -481,6 +481,17 @@ a {
   height: 100%;
 }
 
+/* ----- NewView Styles ----- */
+.newview-text {
+  text-align: center;
+}
+.newview-logo {
+  background: var(--tplains-navy);
+  padding: 2rem;
+  width: 400px;
+  margin: auto;
+}
+
 /* ----- FAQ Section Styles ----- */
 #faq {
   position: relative;
