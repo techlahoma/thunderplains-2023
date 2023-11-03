@@ -22,6 +22,8 @@ import SpeakerMattJonesPic from '../assets/speakers/matt-jones.jpg';
 import SpeakerRebeccaHartwigPic from '../assets/speakers/rebecca-hartwig.jpg';
 import SpeakerRonDagdagPic from '../assets/speakers/ron-dagdag.jpg';
 
+const SCHEDULE_CELL_CLASS = 'p-2';
+
 export default function Home() {
   return (
     <>
@@ -89,9 +91,9 @@ export default function Home() {
           <div className="about-copy flex-1">
             <h3>An Electrifying Tech Event You Don't Want to Miss</h3>
             <p>
-              Get ready to dive into a day filled with mind-blowing talks
-              and networking opportunities with industry experts. Whether you're a seasoned
-              developer or just starting out, ThunderPlains has something for everyone.
+              Get ready to dive into a day filled with mind-blowing talks and networking
+              opportunities with industry experts. Whether you're a seasoned developer or just
+              starting out, ThunderPlains has something for everyone.
             </p>
             <p>
               Explore the latest trends, gain valuable insights, and connect with like-minded
@@ -273,122 +275,116 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section id="schedule" className="text-center">
         <div className="bg-img">
           <Image src={scheduleBG} alt="ThunderPlains Badge" fill />
         </div>
         <h2>Schedule</h2>
 
-        <div className="schedule-table-wrapper">
-          <table className="schedule-wrapper">
-            <tbody>
-              <tr>
-                <td className="bg-violet-300">9:00 am</td>
-                <td colSpan={2} className="bg-slate-200">
-                  Welcome &amp; 10-Year ThunderPlains Recap
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">9:30 am</td>
-                <td className="w-[45%]">
-                  <em>Garrett Bland</em> &mdash;{' '}
-                  <strong>Understanding JavaScript's Event Loop and Callstack</strong>
-                </td>
-                <td className="w-[45%]">
-                  <em>Matthew Reily</em> &mdash;{' '}
-                  <strong>Building a Data-Driven Culture with Observability</strong>
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">10:30 am</td>
-                <td>
-                  <em>Alex Riviere</em> &mdash; <strong>Implementing Small Systems Design</strong>
-                </td>
-                <td>
-                  <em>Elena Haskins</em> &mdash;{' '}
-                  <strong>
-                    Secret Weapon to Bridge Developers and Designers: Object Oriented User
-                    Experience (OOUX)
-                  </strong>
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">11:30 am</td>
-                <td>
-                  <em>Adam Rackis</em> &mdash;{' '}
-                  <strong>The Bleeding &quot;Edge&quot; of Web Development</strong>
-                </td>
-                <td>
-                  <em>Ron Dagdag</em> &mdash;{' '}
-                  <strong>Mixed Reality for JavaScript Developers</strong>
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">12:30 pm</td>
-                <td colSpan={2} className="bg-slate-200">
-                  Lunch Break (12:30 - 1:30 pm)
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">1:30 pm</td>
-                <td>
-                  <em>Rebecca Hartwig</em> &mdash; <strong>Networking... a necessary evil</strong>
-                </td>
-                <td>
-                  <em>Anna Asher and Kassie McClung</em> &mdash;{' '}
-                  <strong>
-                    Mastering the Discovery interview: How to excavate insights that drive
-                    disruptive innovation
-                  </strong>
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">2:30 pm</td>
-                <td>
-                  <em>Matt Jones</em> &mdash;{' '}
-                  <strong>Why we chose Blazor over React and Vue</strong>
-                </td>
-                <td className="bg-slate-50">
-                  <em>Various Speakers &amp; Attendees</em>
-                  <strong>⚡️ Lightning Talks</strong>
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">3:30 pm</td>
-                <td>
-                  <em>Andrew Coleburn</em> &mdash;{' '}
-                  <strong>
-                    Out of the Frying Pan, Into the Fire: A new Dev's Guide to Navigating Unfamiliar
-                    Codebases
-                  </strong>
-                </td>
-                <td className="bg-slate-50">
-                  <em>Various Speakers &amp; Attendees</em>
-                  <strong>⚡️ Lightning Talks</strong>
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-violet-300">5:30 pm</td>
-                <td colSpan={2} className="bg-slate-200">
-                  <p>
-                    <a href="https://www.eventbrite.com/e/okc-tech-november-2023-official-thunderplains-after-party-tickets-735853316077">
-                      Afterparty with OKC Tech++
-                    </a>
-                  </p>
-                  <p>
-                    <strong>Separate registration is required.</strong> Free for ThunderPlains
-                    attendees.
-                  </p>
-                  <p className="text-sm">
-                    Afterparty is 3 blocks away from the Convention Center, and is <a href="https://maps.app.goo.gl/MLr8YghyJmnn9rX5A">walkable</a> with
-                    good weather.
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="schedule-container">
+          <div className="bg-violet-300 schedule-cell">9:00 am</div>
+          <div className="bg-slate-200 schedule-cell">
+            Welcome &amp; 10-Year ThunderPlains Recap
+          </div>
+
+          <div className="bg-violet-300 schedule-cell">9:30 am</div>
+          <div className="md:flex schedule-row">
+            <div className="md:w-[50%] schedule-cell">
+              <em>Garrett Bland</em> &mdash;{' '}
+              <strong>Understanding JavaScript's Event Loop and Callstack</strong>
+            </div>
+            <div className="md:w-[50%] schedule-cell">
+              <em>Matthew Reily</em> &mdash;{' '}
+              <strong>Building a Data-Driven Culture with Observability</strong>
+            </div>
+          </div>
+
+          <div className="bg-violet-300 schedule-cell">10:30 am</div>
+          <div className="md:flex schedule-row">
+            <div className="md:w-[50%] schedule-cell">
+              <em>Alex Riviere</em> &mdash; <strong>Implementing Small Systems Design</strong>
+            </div>
+            <div className="md:w-[50%] schedule-cell">
+              <em>Elena Haskins</em> &mdash;{' '}
+              <strong>
+                Secret Weapon to Bridge Developers and Designers: Object Oriented User Experience
+                (OOUX)
+              </strong>
+            </div>
+          </div>
+
+          <div className="bg-violet-300 schedule-cell">11:30 am</div>
+          <div className="md:flex schedule-row">
+            <div className="md:w-[50%] schedule-cell">
+              <em>Adam Rackis</em> &mdash;{' '}
+              <strong>The Bleeding &quot;Edge&quot; of Web Development</strong>
+            </div>
+            <div className="md:w-[50%] schedule-cell">
+              <em>Ron Dagdag</em> &mdash; <strong>Mixed Reality for JavaScript Developers</strong>
+            </div>
+          </div>
+
+          <div className="bg-slate-200 schedule-cell">Lunch Break (12:30 &mdash; 1:30pm)</div>
+
+          <div className="bg-violet-300 schedule-cell">1:30 pm</div>
+          <div className="md:flex schedule-row">
+            <div className="md:w-[50%] schedule-cell">
+              <em>Rebecca Hartwig</em> &mdash; <strong>Networking... a necessary evil</strong>
+            </div>
+            <div className="md:w-[50%] schedule-cell">
+              <em>Anna Asher and Kassie McClung</em> &mdash;{' '}
+              <strong>
+                Mastering the Discovery interview: How to excavate insights that drive disruptive
+                innovation
+              </strong>
+            </div>
+          </div>
+
+          <div className="bg-violet-300 schedule-cell">2:30 pm</div>
+          <div className="md:flex schedule-row">
+            <div className="md:w-[50%] schedule-cell">
+              <em>Matt Jones</em> &mdash; <strong>Why we chose Blazor over React and Vue</strong>
+            </div>
+            <div className="md:w-[50%] schedule-cell">
+              <em>Various Speakers &amp; Attendees</em>
+              <strong>⚡️ Lightning Talks</strong>
+            </div>
+          </div>
+
+          <div className="bg-violet-300 schedule-cell">3:30 pm</div>
+          <div className="md:flex schedule-row">
+            <div className="md:w-[50%] schedule-cell">
+              <em>Andrew Coleburn</em> &mdash;{' '}
+              <strong>
+                Out of the Frying Pan, Into the Fire: A new Dev's Guide to Navigating Unfamiliar
+                Codebases
+              </strong>
+            </div>
+            <div className="md:w-[50%] schedule-cell">
+              <em>Various Speakers &amp; Attendees</em>
+              <strong>⚡️ Lightning Talks</strong>
+            </div>
+          </div>
+
+          <div className="bg-violet-300 schedule-cell">5:30 pm</div>
+          <div className="bg-slate-200 schedule-cell">
+            <p>
+              <a href="https://www.eventbrite.com/e/okc-tech-november-2023-official-thunderplains-after-party-tickets-735853316077">
+                Afterparty with OKC Tech++
+              </a>
+            </p>
+            <p>
+              <strong>Separate registration is required.</strong> Free for ThunderPlains attendees.
+            </p>
+            <p className="text-sm">
+              Afterparty is 3 blocks away from the Convention Center, and is{' '}
+              <a href="https://maps.app.goo.gl/MLr8YghyJmnn9rX5A">walkable</a> with good weather.
+            </p>
+          </div>
         </div>
       </section>
+
       <section id="tickets">
         <div className="flex">
           <div className="ticket-wrap">
@@ -498,15 +494,20 @@ export default function Home() {
                 </div>
               </div>
               <div className="faq-wrap">
-                <h3 className="faq-q">Q: What are lightning talks, and how will those sessions work?</h3>
+                <h3 className="faq-q">
+                  Q: What are lightning talks, and how will those sessions work?
+                </h3>
                 <div className="faq-a">
                   <p>
-                    A lightning talk is your opportunity to speak on 
-                    a <a href="https://github.com/techlahoma/lightning-talks/blob/main/adopt-a-talk.md">topic</a> of
-                    your choice for up to 5 minutes. Aaron Krauss and Erich Keil are hosting and organizing 
-                    the lightning talk sessions. They will have a signup at the event for some speaker slots, 
-                    but they also have some slots that you can sign up for now. If you're interested, contact 
-                    Aaron or Erich, or find their booth at the conference!
+                    A lightning talk is your opportunity to speak on a{' '}
+                    <a href="https://github.com/techlahoma/lightning-talks/blob/main/adopt-a-talk.md">
+                      topic
+                    </a>{' '}
+                    of your choice for up to 5 minutes. Aaron Krauss and Erich Keil are hosting and
+                    organizing the lightning talk sessions. They will have a signup at the event for
+                    some speaker slots, but they also have some slots that you can sign up for now.
+                    If you're interested, contact Aaron or Erich, or find their booth at the
+                    conference!
                   </p>
                 </div>
               </div>
