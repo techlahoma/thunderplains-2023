@@ -10,6 +10,7 @@ import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
 import eventBadge from '../assets/img/event-details_badge.svg';
 import scheduleBG from '../assets/img/schedule_bg-img.svg';
+import SpeakerAdamRackisPic from '../assets/speakers/adam-rackis.jpeg';
 import SpeakerAlexRivierePic from '../assets/speakers/alex-riviere.jpg';
 import SpeakerAnnaAsherPic from '../assets/speakers/anna-asher.jpg';
 import SpeakerAndrewColeburnPic from '../assets/speakers/andrew-coleburn.png';
@@ -18,6 +19,8 @@ import SpeakerGarrettBlandPic from '../assets/speakers/garrett-bland.png';
 import SpeakerKassieMcClungPic from '../assets/speakers/kassie-mcclung.png';
 import SpeakerMatthewReilyPic from '../assets/speakers/matthew-reily.png';
 import SpeakerMattJonesPic from '../assets/speakers/matt-jones.jpg';
+import SpeakerRebeccaHartwigPic from '../assets/speakers/rebecca-hartwig.jpg';
+import SpeakerRonDagdagPic from '../assets/speakers/ron-dagdag.jpg';
 
 export default function Home() {
   return (
@@ -178,7 +181,9 @@ export default function Home() {
             <div className="speaker-wrapper">
               <div className="speakers-list ">
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerAdamRackisPic} alt="Adam Rackis" />
+                  </div>
                   <div className="person-name">
                     <h4>Adam Rackis</h4>
                   </div>
@@ -248,13 +253,17 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerRebeccaHartwigPic} alt="Rebecca Hartwig" />
+                  </div>
                   <div className="person-name">
                     <h4>Rebecca Hartwig</h4>
                   </div>
                 </div>
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerRonDagdagPic} alt="Ron Dagdag" />
+                  </div>
                   <div className="person-name">
                     <h4>Ron Dagdag</h4>
                   </div>
@@ -323,8 +332,7 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">1:30 pm</td>
                 <td>
-                  <em>Matt Jones</em> &mdash;{' '}
-                  <strong>Why we chose Blazor over React and Vue</strong>
+                  <em>Rebecca Hartwig</em> &mdash; <strong>Networking... a necessary evil</strong>
                 </td>
                 <td>
                   <em>Anna Asher and Kassie McClung</em> &mdash;{' '}
@@ -337,7 +345,8 @@ export default function Home() {
               <tr>
                 <td className="bg-violet-300">2:30 pm</td>
                 <td>
-                  <em>Rebecca Hartwig</em> &mdash; <strong>Tech Career Advice</strong>
+                  <em>Matt Jones</em> &mdash;{' '}
+                  <strong>Why we chose Blazor over React and Vue</strong>
                 </td>
                 <td className="bg-slate-50">
                   <em>Various Speakers &amp; Attendees</em>
