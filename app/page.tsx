@@ -22,8 +22,6 @@ import SpeakerMattJonesPic from '../assets/speakers/matt-jones.jpg';
 import SpeakerRebeccaHartwigPic from '../assets/speakers/rebecca-hartwig.jpg';
 import SpeakerRonDagdagPic from '../assets/speakers/ron-dagdag.jpg';
 
-const SCHEDULE_CELL_CLASS = 'p-2';
-
 export default function Home() {
   return (
     <>
