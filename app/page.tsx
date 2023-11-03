@@ -10,6 +10,7 @@ import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
 import eventBadge from '../assets/img/event-details_badge.svg';
 import scheduleBG from '../assets/img/schedule_bg-img.svg';
+import SpeakerAdamRackisPic from '../assets/speakers/adam-rackis.jpeg';
 import SpeakerAlexRivierePic from '../assets/speakers/alex-riviere.jpg';
 import SpeakerAnnaAsherPic from '../assets/speakers/anna-asher.jpg';
 import SpeakerAndrewColeburnPic from '../assets/speakers/andrew-coleburn.png';
@@ -180,7 +181,9 @@ export default function Home() {
             <div className="speaker-wrapper">
               <div className="speakers-list ">
                 <div className="person-wrapper">
-                  <div className="hs-wrap"></div>
+                  <div className="hs-wrap">
+                    <Image src={SpeakerAdamRackisPic} alt="Adam Rackis" />
+                  </div>
                   <div className="person-name">
                     <h4>Adam Rackis</h4>
                   </div>
