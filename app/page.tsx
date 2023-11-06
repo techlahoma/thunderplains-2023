@@ -6,6 +6,7 @@ import SponsorHeartlandLogo from '../assets/sponsors/heartland-red.png';
 import Sponsor36dnLogo from '../assets/sponsors/36dn.png';
 import SponsorOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
 import SponsorBitnessLabsLogo from '../assets/sponsors/bitness_labs.png';
+import SponsorClevyrLogo from '../assets/sponsors/clevyr.png';
 import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import SponsorSimiancraftLogo from '../assets/sponsors/simiancraft.jpeg';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
@@ -647,6 +648,19 @@ export default function Home() {
                     />
                   </a>
                   <h4>Bitness Labs</h4>
+                </div>
+              </div>
+              <div className="sponsor-item">
+                <div className="s-wrap">
+                  <a href="https://clevyr.com/">
+                    <Image
+                      src={SponsorClevyrLogo}
+                      alt="Clevyr"
+                      width={450}
+                      height={450}
+                    />
+                  </a>
+                  <h4>Clevyr</h4>
                 </div>
               </div>
             </div>
