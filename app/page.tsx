@@ -2,13 +2,15 @@ import Image from 'next/image';
 import { H2 } from '../components/HTML';
 
 // Images/assets
-import SponsorHeartlandLogo from '../assets/sponsors/heartland-red.png';
 import Sponsor36dnLogo from '../assets/sponsors/36dn.png';
-import SponsorOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
 import SponsorBitnessLabsLogo from '../assets/sponsors/bitness_labs.png';
 import SponsorClevyrLogo from '../assets/sponsors/clevyr.png';
-import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
+import SponsorHeartlandLogo from '../assets/sponsors/heartland-red.png';
+import SponsorNodecraftLogo from '../assets/sponsors/nodecraft.png';
+import SponsorOfAshAndFireLogo from '../assets/sponsors/of_ash_and_fire.jpg';
 import SponsorSimiancraftLogo from '../assets/sponsors/simiancraft.jpeg';
+import SponsorTitanLogo from '../assets/sponsors/titan.png';
+import SponsorVergeLogo from '../assets/sponsors/verge-black.png';
 import TPlains10Logo from '../assets/img/tplains_10_icon.png';
 import eventBadge from '../assets/img/event-details_badge.svg';
 import NewViewOklahomaLogo from '../assets/img/newview-oklahoma.svg';
@@ -614,6 +616,22 @@ export default function Home() {
                   </h4>
                 </div>
               </div>
+              <div className="sponsor-item">
+                <div className="s-wrap">
+                  <a href="https://www.titanprojobs.com/">
+                    <Image 
+                      src={SponsorTitanLogo}
+                      alt="Titan Professional Resources"
+                      width={450}
+                      height={450}
+                    />
+                  </a>
+                  <h4>
+                    Titan Professional Resources
+                    <span>Booth Sponsor</span>
+                  </h4>
+                </div>
+              </div>
             </div>
           </div>
           <div className="sponsor-group bronze-sponsors">
@@ -661,6 +679,19 @@ export default function Home() {
                     />
                   </a>
                   <h4>Clevyr</h4>
+                </div>
+              </div>
+              <div className="sponsor-item">
+                <div className="s-wrap">
+                  <a href="https://nodecraft.com/">
+                    <Image
+                      src={SponsorNodecraftLogo}
+                      alt="Nodecraft"
+                      width={450}
+                      height={450}
+                    />
+                  </a>
+                  <h4>Nodecraft</h4>
                 </div>
               </div>
             </div>
