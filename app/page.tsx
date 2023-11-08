@@ -507,9 +507,9 @@ export default function Home() {
                 <h3 className="faq-q">Q: I sometimes get hungry. Will there be food?</h3>
                 <div className="faq-a">
                   <p>
-                    What kind of conference would we be with no food?! Light breakfast with coffee
-                    and a full lunch will be provided. If you have dietary restrictions, please list
-                    them on your registration form.
+                    What kind of conference would we be with no food?! Coffee service will be
+                    available in the morning and a full lunch will be provided. If you have dietary
+                    restrictions, please list them on your registration form.
                   </p>
                 </div>
               </div>
@@ -619,7 +619,7 @@ export default function Home() {
               <div className="sponsor-item">
                 <div className="s-wrap">
                   <a href="https://www.titanprojobs.com/">
-                    <Image 
+                    <Image
                       src={SponsorTitanLogo}
                       alt="Titan Professional Resources"
                       width={450}
@@ -671,12 +671,7 @@ export default function Home() {
               <div className="sponsor-item">
                 <div className="s-wrap">
                   <a href="https://clevyr.com/">
-                    <Image
-                      src={SponsorClevyrLogo}
-                      alt="Clevyr"
-                      width={450}
-                      height={450}
-                    />
+                    <Image src={SponsorClevyrLogo} alt="Clevyr" width={450} height={450} />
                   </a>
                   <h4>Clevyr</h4>
                 </div>
@@ -684,12 +679,7 @@ export default function Home() {
               <div className="sponsor-item">
                 <div className="s-wrap">
                   <a href="https://nodecraft.com/">
-                    <Image
-                      src={SponsorNodecraftLogo}
-                      alt="Nodecraft"
-                      width={450}
-                      height={450}
-                    />
+                    <Image src={SponsorNodecraftLogo} alt="Nodecraft" width={450} height={450} />
                   </a>
                   <h4>Nodecraft</h4>
                 </div>
