@@ -288,7 +288,7 @@ export default function Home() {
         <div className="schedule-container">
           <div className="bg-violet-300 schedule-cell">9:00 am</div>
           <div className="bg-slate-200 schedule-cell">
-            Welcome &amp; 10-Year ThunderPlains Recap
+            <em>Vance Lucas</em> &mdash; <strong>Welcome &amp; 10-Year ThunderPlains Recap</strong>
           </div>
 
           <div className="bg-violet-300 schedule-cell">9:30 am</div>
