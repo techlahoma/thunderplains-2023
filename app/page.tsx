@@ -290,30 +290,35 @@ export default function Home() {
           <div className="bg-slate-200 schedule-cell">
             <em>Vance Lucas</em> &mdash; <strong>Welcome &amp; 10-Year ThunderPlains Recap</strong>
           </div>
+          <div className="schedule-cell">
+            <p className="text-sm">We'll start the day with one combined session in room 301, 
+            and then we'll split the room into two for tracks AB and CD.</p>
+            <p className="text-sm">CD will be on the left side, and AB will be on the right side.</p>
+          </div>
 
           <div className="bg-violet-300 schedule-cell">9:30 am</div>
           <div className="md:flex schedule-row">
             <div className="md:w-[50%] schedule-cell">
               <em>Garrett Bland</em> &mdash;{' '}
-              <strong>Understanding JavaScript's Event Loop and Callstack</strong>
+              <strong>Understanding JavaScript's Event Loop and Callstack</strong> &mdash;{' '} AB
             </div>
             <div className="md:w-[50%] schedule-cell">
               <em>Matthew Reily</em> &mdash;{' '}
-              <strong>Building a Data-Driven Culture with Observability</strong>
+              <strong>Building a Data-Driven Culture with Observability</strong> &mdash;{' '} CD
             </div>
           </div>
 
           <div className="bg-violet-300 schedule-cell">10:30 am</div>
           <div className="md:flex schedule-row">
             <div className="md:w-[50%] schedule-cell">
-              <em>Alex Riviere</em> &mdash; <strong>Implementing Small Systems Design</strong>
+              <em>Alex Riviere</em> &mdash; <strong>Implementing Small Systems Design</strong> &mdash;{' '} AB
             </div>
             <div className="md:w-[50%] schedule-cell">
               <em>Elena Haskins</em> &mdash;{' '}
               <strong>
                 Secret Weapon to Bridge Developers and Designers: Object Oriented User Experience
                 (OOUX)
-              </strong>
+              </strong> &mdash;{' '} CD
             </div>
           </div>
 
@@ -321,10 +326,10 @@ export default function Home() {
           <div className="md:flex schedule-row">
             <div className="md:w-[50%] schedule-cell">
               <em>Adam Rackis</em> &mdash;{' '}
-              <strong>The Bleeding &quot;Edge&quot; of Web Development</strong>
+              <strong>The Bleeding &quot;Edge&quot; of Web Development</strong> &mdash;{' '} AB
             </div>
             <div className="md:w-[50%] schedule-cell">
-              <em>Ron Dagdag</em> &mdash; <strong>Mixed Reality for JavaScript Developers</strong>
+              <em>Ron Dagdag</em> &mdash; <strong>Mixed Reality for JavaScript Developers</strong> &mdash;{' '} CD
             </div>
           </div>
 
@@ -333,25 +338,25 @@ export default function Home() {
           <div className="bg-violet-300 schedule-cell">1:30 pm</div>
           <div className="md:flex schedule-row">
             <div className="md:w-[50%] schedule-cell">
-              <em>Rebecca Hartwig</em> &mdash; <strong>Networking... a necessary evil</strong>
+              <em>Rebecca Hartwig</em> &mdash; <strong>Networking... a necessary evil</strong> &mdash;{' '} AB
             </div>
             <div className="md:w-[50%] schedule-cell">
               <em>Anna Asher and Kassie McClung</em> &mdash;{' '}
               <strong>
                 Mastering the Discovery interview: How to excavate insights that drive disruptive
                 innovation
-              </strong>
+              </strong> &mdash;{' '} CD
             </div>
           </div>
 
           <div className="bg-violet-300 schedule-cell">2:30 pm</div>
           <div className="md:flex schedule-row">
             <div className="md:w-[50%] schedule-cell">
-              <em>Matt Jones</em> &mdash; <strong>Why we chose Blazor over React and Vue</strong>
+              <em>Matt Jones</em> &mdash; <strong>Why we chose Blazor over React and Vue</strong> &mdash;{' '} AB
             </div>
             <div className="md:w-[50%] schedule-cell">
               <em>Various Speakers &amp; Attendees</em>
-              <strong>⚡️ Lightning Talks</strong>
+              <strong>⚡️ Lightning Talks</strong> &mdash;{' '} CD
             </div>
           </div>
 
@@ -362,11 +367,11 @@ export default function Home() {
               <strong>
                 Out of the Frying Pan, Into the Fire: A new Dev's Guide to Navigating Unfamiliar
                 Codebases
-              </strong>
+              </strong> &mdash;{' '} AB
             </div>
             <div className="md:w-[50%] schedule-cell">
               <em>Various Speakers &amp; Attendees</em>
-              <strong>⚡️ Lightning Talks</strong>
+              <strong>⚡️ Lightning Talks</strong> &mdash;{' '} CD
             </div>
           </div>
 
